@@ -1,8 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\slowanim.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\NGUI\Resources\Shaders\Unlit - Additive Colored.shader">
     <Files>
-      <File FileName="Assets\slowanim.cs" Line="16" Column="5" />
+      <File FileName="Assets\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" Line="25" Column="30" />
+      <File FileName="Assets\Standard Assets\Character Controllers\Sources\Scripts\CharacterMotor.js" Line="1" Column="1" />
+      <File FileName="Assets\NGUI\Resources\Shaders\Unlit - Additive Colored.shader" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
