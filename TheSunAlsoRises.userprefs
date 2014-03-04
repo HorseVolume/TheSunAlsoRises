@@ -1,12 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\HTMLEngine\NGUI\NGUIDemo.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\simpleLine.js">
     <Files>
-      <File FileName="Assets\HTMLEngine\NGUI\NGUIHTML.cs" Line="1" Column="1" />
-      <File FileName="Assets\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" Line="1" Column="1" />
-      <File FileName="Assets\Standard Assets\Character Controllers\Sources\Scripts\CharacterMotor.js" Line="1" Column="1" />
-      <File FileName="Assets\NGUI\Resources\Shaders\Unlit - Additive Colored.shader" Line="1" Column="1" />
-      <File FileName="Assets\HTMLEngine\NGUI\NGUIDemo.cs" Line="15" Column="29" />
+      <File FileName="Assets\NGUI\Examples\Scripts\Other\PanWithMouse.cs" Line="38" Column="1" />
+      <File FileName="Assets\Scripts\line.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\simpleLine.js" Line="22" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

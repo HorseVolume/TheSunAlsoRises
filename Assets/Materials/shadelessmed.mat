@@ -20,7 +20,11 @@ Material:
           m_Texture: {fileID: 2800000, guid: a7608c3b0de9a96438f6e082e0af95e6, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
-    m_Floats: {}
+    m_Floats:
+      data:
+        first:
+          name: PixelSnap
+        second: 0
     m_Colors:
       data:
         first:
