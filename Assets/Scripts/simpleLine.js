@@ -1,8 +1,8 @@
-﻿// This script draws a curve using a continuous line
+// This script draws a curve using a continuous line
 import Vectrosity;
 
 var curvePoints : Vector2[];	// The points for the curve are defined in the inspector
-var segments = 3;
+var segments = 50;
 
 function Start () {
 	if (curvePoints.Length != 4) {

@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Kid_polySurface14Mat
+  m_Shader: {fileID: 4800000, guid: 363bfea2e78af7e43b52532d0e01bc81, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: f1b9cdc19861873489dd321df7b3e192, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _node2
+        second:
+          m_Texture: {fileID: 2800000, guid: f1b9cdc19861873489dd321df7b3e192, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _node2copy
+        second:
+          m_Texture: {fileID: 2800000, guid: 513118dd78bfefa41931aa8a1aa8af48, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _node428
+        second: .714285731
+      data:
+        first:
+          name: _node440
+        second: .142857149
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: .800000012, g: .800000012, b: .800000012, a: 1}
+      data:
+        first:
+          name: _node8
+        second: {r: .16911763, g: .0384888388, b: 0, a: .294117659}
+      data:
+        first:
+          name: _node438
+        second: {r: 1, g: .475862086, b: 0, a: 1}

@@ -1,10 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\simpleLine.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\PlayMaker\Actions\PlayAnimation.cs">
     <Files>
-      <File FileName="Assets\NGUI\Examples\Scripts\Other\PanWithMouse.cs" Line="38" Column="1" />
       <File FileName="Assets\Scripts\line.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\simpleLine.js" Line="22" Column="2" />
+      <File FileName="Assets\PlayMaker\Actions\GetSubstring.cs" Line="1" Column="1" />
+      <File FileName="Assets\wordwrap.js" Line="1" Column="1" />
+      <File FileName="Assets\PlayMaker\Actions\PlayAnimation.cs" Line="83" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

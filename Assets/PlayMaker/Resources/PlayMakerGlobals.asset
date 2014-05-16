@@ -19,9 +19,69 @@ MonoBehaviour:
       showInInspector: 0
       networkSync: 0
       value: 0
-    intVariables: []
-    boolVariables: []
-    stringVariables: []
+    intVariables:
+    - useVariable: 1
+      name: characterWrapLimit
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 60
+    boolVariables:
+    - useVariable: 1
+      name: waitForKidSpeech
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: waitForMedicSpeech
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    stringVariables:
+    - useVariable: 1
+      name: aContext
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: DIED
+    - useVariable: 1
+      name: bContext
+      tooltip: 
+      showInInspector: 0
+      networkSync: 1
+      value: 
+    - useVariable: 1
+      name: cContext
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 
+    - useVariable: 1
+      name: hilightcolor
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: ffffff
+    - useVariable: 1
+      name: kidspeech
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: ' '
+    - useVariable: 1
+      name: medicspeech
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: ' '
+    - useVariable: 1
+      name: silentContext
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 
     vector2Variables: []
     vector3Variables: []
     colorVariables: []
@@ -43,6 +103,9 @@ MonoBehaviour:
   - pressed
   - paused
   - MoveTo
+  - Branch
+  - Silent
+  - switchtoSubway
 --- !u!1002 &11400001
 EditorExtensionImpl:
   serializedVersion: 6

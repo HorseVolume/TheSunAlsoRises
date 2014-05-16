@@ -1,0 +1,1843 @@
+fileFormatVersion: 2
+guid: 5d2a678f5c3d4014c90587041c7f5475
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: boy_rig:body_anim
+    100004: boy_rig:boy_geo
+    100006: boy_rig:boy_grp_all
+    100008: boy_rig:geo_grp_all
+    100010: boy_rig:head_anim
+    100012: boy_rig:head_anim_grpConst
+    100014: boy_rig:head_anim_orient
+    100016: boy_rig:head_joint
+    100018: boy_rig:hip_anim
+    100020: boy_rig:hip_anim_grpConst
+    100022: boy_rig:hip_anim_orient
+    100024: boy_rig:hip_joint
+    100026: boy_rig:hip_joint_grpConst
+    100028: boy_rig:l_acetabular_joint
+    100030: boy_rig:l_ankle_bind_joint
+    100032: boy_rig:l_ankle_fk_joint
+    100034: boy_rig:l_ankle_fk_PosTracker_loc
+    100036: boy_rig:l_ankle_fk_rotTracker_loc
+    100038: boy_rig:l_ankle_fk_rotTracker_loc_orient
+    100040: boy_rig:l_ankle_ik_joint
+    100042: boy_rig:l_arm_anim_grp
+    100044: boy_rig:l_arm_annotation_grp
+    100046: boy_rig:l_arm_dist_1_loc
+    100048: boy_rig:l_arm_dist_2_loc
+    100050: boy_rig:l_arm_dist_3_loc
+    100052: boy_rig:l_arm_dist_loc_grp
+    100054: boy_rig:l_arm_doNotTouch_grp_all
+    100056: boy_rig:l_arm_fkTracker_loc_grp
+    100058: boy_rig:l_arm_grp_all
+    100060: boy_rig:l_arm_ik_annotate
+    100062: boy_rig:l_arm_ikHandle_grp
+    100064: boy_rig:l_arm_ikTracker_loc_grp
+    100066: boy_rig:l_arm_joints_grp
+    100068: boy_rig:l_arm_pv_anim
+    100070: boy_rig:l_arm_pv_anim_orient
+    100072: boy_rig:l_arm_pvInfo_loc_grp
+    100074: boy_rig:l_arm_pvOffset_1_joint
+    100076: boy_rig:l_arm_pvOffset_2_joint
+    100078: boy_rig:l_arm_pvOffset_ikHandle
+    100080: boy_rig:l_arm_pvTarget_local_loc
+    100082: boy_rig:l_arm_pvTarget_local_loc_localSpace
+    100084: boy_rig:l_arm_pvTarget_local_loc_orient
+    100086: boy_rig:l_arm_pvTarget_world_loc
+    100088: boy_rig:l_arm_rp_ikHandle
+    100090: boy_rig:l_arm_switch_anim
+    100092: boy_rig:l_ball_bind_joint
+    100094: boy_rig:l_ball_fk_joint
+    100096: boy_rig:l_ball_ik_joint
+    100098: boy_rig:l_ball_sc_ikHandle
+    100100: boy_rig:l_calf_bind_1_joint
+    100102: boy_rig:l_calf_bind_2_joint
+    100104: boy_rig:l_calf_twistInfo_loc
+    100106: boy_rig:l_calf_twistInfo_loc_grp
+    100108: boy_rig:l_calf_twistInfo_loc_orient
+    100110: boy_rig:l_calf_twistTarget_loc
+    100112: boy_rig:l_calf_twistTarget_loc_orient
+    100114: boy_rig:l_clavicle_1_dist_loc
+    100116: boy_rig:l_clavicle_2_dist_loc
+    100118: boy_rig:l_clavicle_fk_1_joint
+    100120: boy_rig:l_clavicle_fk_1_joint_constGrp
+    100122: boy_rig:l_clavicle_fk_1_joint_localSpace
+    100124: boy_rig:l_clavicle_fk_1_joint_orient
+    100126: boy_rig:l_clavicle_fk_2_joint
+    100128: boy_rig:l_clavicle_ik_1_joint
+    100130: boy_rig:l_clavicle_ik_2_joint
+    100132: boy_rig:l_clavicle_ik_anim
+    100134: boy_rig:l_clavicle_ik_anim_grpConst
+    100136: boy_rig:l_clavicle_ik_anim_orient
+    100138: boy_rig:l_clavicle_sc_ikHandle
+    100140: boy_rig:l_clavicle_sc_ikHandle_constGrp
+    100142: boy_rig:l_elbow_bind_joint
+    100144: boy_rig:l_elbow_fk_joint
+    100146: boy_rig:l_elbow_ik_joint
+    100148: boy_rig:l_foot_anim_1_joint
+    100150: boy_rig:l_foot_anim_2_joint
+    100152: boy_rig:l_foot_anim_3_joint
+    100154: boy_rig:l_foot_anim_4_joint
+    100156: boy_rig:l_foot_anim_orient
+    100158: boy_rig:l_foot_anim_toeWiggle_1_joint
+    100160: boy_rig:l_foot_anim_toeWiggle_1_joint_orient
+    100162: boy_rig:l_foot_anim_toeWiggle_2_joint
+    100164: boy_rig:l_foot_ik_anim
+    100166: boy_rig:l_foot_rotTracker_loc
+    100168: boy_rig:l_foot_rotTracker_loc_grpConst
+    100170: boy_rig:l_foot_rotTracker_loc_orient
+    100172: boy_rig:l_foot_side_1_loc
+    100174: boy_rig:l_foot_side_2_loc
+    100176: boy_rig:l_forearm_bind_1_joint
+    100178: boy_rig:l_forearm_bind_2_joint
+    100180: boy_rig:l_forearm_twistInfo_loc
+    100182: boy_rig:l_forearm_twistInfo_loc_grp
+    100184: boy_rig:l_forearm_twistInfo_loc_orient
+    100186: boy_rig:l_forearm_twistTarget_loc
+    100188: boy_rig:l_forearm_twistTarget_loc_orient
+    100190: boy_rig:l_hand_anim_grp
+    100192: boy_rig:l_hand_anim_grp_orient
+    100194: boy_rig:l_hand_base_bind_joint
+    100196: boy_rig:l_hand_grp_all
+    100198: boy_rig:l_hand_ik_anim
+    100200: boy_rig:l_hand_ik_anim_grpConst
+    100202: boy_rig:l_hand_ik_anim_localSpace
+    100204: boy_rig:l_hand_ik_anim_orient
+    100206: boy_rig:l_hand_joints_grp
+    100208: boy_rig:l_heel_loc
+    100210: boy_rig:l_index_bind_1_joint
+    100212: boy_rig:l_index_bind_2_joint
+    100214: boy_rig:l_index_bind_base_joint
+    100216: boy_rig:l_index_fk_1_joint
+    100218: boy_rig:l_index_fk_base_joint
+    100220: boy_rig:l_index_sdk_1_grpOffset
+    100222: boy_rig:l_index_sdk_1_grpOffset_orient
+    100224: boy_rig:l_index_sdk_2_grpOffset
+    100226: boy_rig:l_index_sdk_2_grpOffset_orient
+    100228: boy_rig:l_knee_bind_joint
+    100230: boy_rig:l_knee_fk_joint
+    100232: boy_rig:l_knee_ik_joint
+    100234: boy_rig:l_leg_anim_grp
+    100236: boy_rig:l_leg_annotation_grp
+    100238: boy_rig:l_leg_dist_1_loc
+    100240: boy_rig:l_leg_dist_2_loc
+    100242: boy_rig:l_leg_dist_3_loc
+    100244: boy_rig:l_leg_dist_loc_grp
+    100246: boy_rig:l_leg_doNotTouch_grp_all
+    100248: boy_rig:l_leg_fkTracker_loc_grp
+    100250: boy_rig:l_leg_grp_all
+    100252: boy_rig:l_leg_ik_annotate
+    100254: boy_rig:l_leg_ikHandle_grp
+    100256: boy_rig:l_leg_ikTracker_loc_grp
+    100258: boy_rig:l_leg_joints_grp
+    100260: boy_rig:l_leg_pv_anim
+    100262: boy_rig:l_leg_pv_anim_orient
+    100264: boy_rig:l_leg_pvInfo_loc_grp
+    100266: boy_rig:l_leg_pvOffset_1_joint
+    100268: boy_rig:l_leg_pvOffset_2_joint
+    100270: boy_rig:l_leg_pvOffset_ikHandle
+    100272: boy_rig:l_leg_pvTarget_local_loc
+    100274: boy_rig:l_leg_pvTarget_local_loc_localSpace
+    100276: boy_rig:l_leg_pvTarget_local_loc_orient
+    100278: boy_rig:l_leg_pvTarget_world_loc
+    100280: boy_rig:l_leg_rp_ikHandle
+    100282: boy_rig:l_leg_switch_anim
+    100284: boy_rig:l_shoulder_bind_joint
+    100286: boy_rig:l_shoulder_fk_joint
+    100288: boy_rig:l_shoulder_fk_joint_constGrp
+    100290: boy_rig:l_shoulder_fk_joint_localSpace
+    100292: boy_rig:l_shoulder_fk_joint_orient
+    100294: boy_rig:l_shoulder_fk_posTracker_loc
+    100296: boy_rig:l_shoulder_fk_rotTracker_loc
+    100298: boy_rig:l_shoulder_fk_rotTracker_loc_orient
+    100300: boy_rig:l_shoulder_ik_joint
+    100302: boy_rig:l_shoulder_ik_posTracker_loc
+    100304: boy_rig:l_sternoclavicular_joint
+    100306: boy_rig:l_thigh_bind_joint
+    100308: boy_rig:l_thigh_fk_joint
+    100310: boy_rig:l_thigh_fk_joint_grpConst
+    100312: boy_rig:l_thigh_fk_joint_localSpace
+    100314: boy_rig:l_thigh_fk_joint_orient
+    100316: boy_rig:l_thigh_fk_posTracker_loc
+    100318: boy_rig:l_thigh_fk_rotTracker_loc
+    100320: boy_rig:l_thigh_fk_rotTracker_loc_orient
+    100322: boy_rig:l_thigh_ik_joint
+    100324: boy_rig:l_thigh_ik_posTracker_loc
+    100326: boy_rig:l_thumb_bind_1_joint
+    100328: boy_rig:l_thumb_bind_base_joint
+    100330: boy_rig:l_thumb_fk_base_joint
+    100332: boy_rig:l_thumb_sdk_1_grpOffset
+    100334: boy_rig:l_thumb_sdk_1_grpOffset_orient
+    100336: boy_rig:l_toe_bind_joint
+    100338: boy_rig:l_toe_fk_joint
+    100340: boy_rig:l_toe_ik_joint
+    100342: boy_rig:l_toe_sc_ikHandle
+    100344: boy_rig:l_wrist_bind_joint
+    100346: boy_rig:l_wrist_fk_joint
+    100348: boy_rig:l_wrist_fk_PosTracker_loc
+    100350: boy_rig:l_wrist_fk_PosTracker_locwrist_fk_rotTracker_loc_orient
+    100352: boy_rig:l_wrist_fk_rotTracker_loc
+    100354: boy_rig:l_wrist_ik_joint
+    100356: boy_rig:neck_anim_grp
+    100358: boy_rig:neck_base_anim
+    100360: boy_rig:neck_base_anim_grpConst
+    100362: boy_rig:neck_base_anim_orient
+    100364: boy_rig:neck_base_loc
+    100366: boy_rig:neck_bind_1_joint
+    100368: boy_rig:neck_bind_2_joint
+    100370: boy_rig:neck_bind_3_joint
+    100372: boy_rig:neck_bind_curve
+    100374: boy_rig:neck_doNotTouch_grp
+    100376: boy_rig:neck_fk_1_joint
+    100378: boy_rig:neck_fk_2_joint
+    100380: boy_rig:neck_grp_all
+    100382: boy_rig:neck_ik_1_joint
+    100384: boy_rig:neck_ik_2_joint
+    100386: boy_rig:neck_ik_3_joint
+    100388: boy_rig:neck_ikSpline_handle
+    100390: boy_rig:neck_joints_grp
+    100392: boy_rig:neck_joints_grpConst
+    100394: boy_rig:neck_midBend_anim
+    100396: boy_rig:neck_midBend_anim_orient
+    100398: boy_rig:neck_midBend_joint
+    100400: boy_rig:neck_motionPath_curve
+    100402: boy_rig:neck_pv_1_loc
+    100404: boy_rig:neck_pv_1_loc_orient
+    100406: boy_rig:neck_pv_2_loc
+    100408: boy_rig:neck_pv_2_loc_orient
+    100410: boy_rig:neck_pv_3_loc
+    100412: boy_rig:neck_pv_3_loc_orient
+    100414: boy_rig:neck_rp_1_ikHandle
+    100416: boy_rig:neck_rp_2_ikHandle
+    100418: boy_rig:neck_stiffener_1_joint
+    100420: boy_rig:neck_stiffener_2_joint
+    100422: boy_rig:neck_stiffener_3_joint
+    100424: boy_rig:neck_tip_anim
+    100426: boy_rig:neck_tip_anim_grpConst
+    100428: boy_rig:neck_tip_anim_orient
+    100430: boy_rig:neck_tip_joint
+    100432: boy_rig:neck_tip_joint_grpConst
+    100434: boy_rig:neck_tip_loc
+    100436: boy_rig:r_acetabular_joint
+    100438: boy_rig:r_ankle_bind_joint
+    100440: boy_rig:r_ankle_fk_joint
+    100442: boy_rig:r_ankle_fk_PosTracker_loc
+    100444: boy_rig:r_ankle_fk_rotTracker_loc
+    100446: boy_rig:r_ankle_fk_rotTracker_loc_orient
+    100448: boy_rig:r_ankle_ik_joint
+    100450: boy_rig:r_arm_anim_grp
+    100452: boy_rig:r_arm_annotation_grp
+    100454: boy_rig:r_arm_dist_1_loc
+    100456: boy_rig:r_arm_dist_2_loc
+    100458: boy_rig:r_arm_dist_3_loc
+    100460: boy_rig:r_arm_dist_loc_grp
+    100462: boy_rig:r_arm_doNotTouch_grp_all
+    100464: boy_rig:r_arm_fkTracker_loc_grp
+    100466: boy_rig:r_arm_grp_all
+    100468: boy_rig:r_arm_ik_annotate
+    100470: boy_rig:r_arm_ikHandle_grp
+    100472: boy_rig:r_arm_ikTracker_loc_grp
+    100474: boy_rig:r_arm_joints_grp
+    100476: boy_rig:r_arm_pv_anim
+    100478: boy_rig:r_arm_pv_anim_orient
+    100480: boy_rig:r_arm_pvInfo_loc_grp
+    100482: boy_rig:r_arm_pvOffset_1_joint
+    100484: boy_rig:r_arm_pvOffset_2_joint
+    100486: boy_rig:r_arm_pvOffset_ikHandle
+    100488: boy_rig:r_arm_pvTarget_local_loc
+    100490: boy_rig:r_arm_pvTarget_local_loc_localSpace
+    100492: boy_rig:r_arm_pvTarget_local_loc_orient
+    100494: boy_rig:r_arm_pvTarget_world_loc
+    100496: boy_rig:r_arm_rp_ikHandle
+    100498: boy_rig:r_arm_switch_anim
+    100500: boy_rig:r_ball_bind_joint
+    100502: boy_rig:r_ball_fk_joint
+    100504: boy_rig:r_ball_ik_joint
+    100506: boy_rig:r_ball_sc_ikHandle
+    100508: boy_rig:r_calf_bind_1_joint
+    100510: boy_rig:r_calf_bind_2_joint
+    100512: boy_rig:r_calf_twistInfo_loc
+    100514: boy_rig:r_calf_twistInfo_loc_grp
+    100516: boy_rig:r_calf_twistInfo_loc_orient
+    100518: boy_rig:r_calf_twistTarget_loc
+    100520: boy_rig:r_calf_twistTarget_loc_orient
+    100522: boy_rig:r_clavicle_1_dist_loc
+    100524: boy_rig:r_clavicle_2_dist_loc
+    100526: boy_rig:r_clavicle_fk_1_joint
+    100528: boy_rig:r_clavicle_fk_1_joint_constGrp
+    100530: boy_rig:r_clavicle_fk_1_joint_localSpace
+    100532: boy_rig:r_clavicle_fk_1_joint_orient
+    100534: boy_rig:r_clavicle_fk_2_joint
+    100536: boy_rig:r_clavicle_ik_1_joint
+    100538: boy_rig:r_clavicle_ik_2_joint
+    100540: boy_rig:r_clavicle_ik_anim
+    100542: boy_rig:r_clavicle_ik_anim_grpConst
+    100544: boy_rig:r_clavicle_ik_anim_orient
+    100546: boy_rig:r_clavicle_sc_ikHandle
+    100548: boy_rig:r_clavicle_sc_ikHandle_constGrp
+    100550: boy_rig:r_elbow_bind_joint
+    100552: boy_rig:r_elbow_fk_joint
+    100554: boy_rig:r_elbow_ik_joint
+    100556: boy_rig:r_foot_anim_1_joint
+    100558: boy_rig:r_foot_anim_2_joint
+    100560: boy_rig:r_foot_anim_3_joint
+    100562: boy_rig:r_foot_anim_4_joint
+    100564: boy_rig:r_foot_anim_orient
+    100566: boy_rig:r_foot_anim_toeWiggle_1_joint
+    100568: boy_rig:r_foot_anim_toeWiggle_1_joint_orient
+    100570: boy_rig:r_foot_anim_toeWiggle_2_joint
+    100572: boy_rig:r_foot_ik_anim
+    100574: boy_rig:r_foot_rotTracker_loc
+    100576: boy_rig:r_foot_rotTracker_loc_grpConst
+    100578: boy_rig:r_foot_rotTracker_loc_orient
+    100580: boy_rig:r_foot_side_1_loc
+    100582: boy_rig:r_foot_side_2_loc
+    100584: boy_rig:r_forearm_bind_1_joint
+    100586: boy_rig:r_forearm_bind_2_joint
+    100588: boy_rig:r_forearm_twistInfo_loc
+    100590: boy_rig:r_forearm_twistInfo_loc_grp
+    100592: boy_rig:r_forearm_twistInfo_loc_orient
+    100594: boy_rig:r_forearm_twistTarget_loc
+    100596: boy_rig:r_forearm_twistTarget_loc_orient
+    100598: boy_rig:r_hand_anim_grp
+    100600: boy_rig:r_hand_anim_grp_orient
+    100602: boy_rig:r_hand_base_bind_joint
+    100604: boy_rig:r_hand_grp_all
+    100606: boy_rig:r_hand_ik_anim
+    100608: boy_rig:r_hand_ik_anim_grpConst
+    100610: boy_rig:r_hand_ik_anim_localSpace
+    100612: boy_rig:r_hand_ik_anim_orient
+    100614: boy_rig:r_hand_joints_grp
+    100616: boy_rig:r_heel_loc
+    100618: boy_rig:r_index_bind_1_joint
+    100620: boy_rig:r_index_bind_2_joint
+    100622: boy_rig:r_index_bind_base_joint
+    100624: boy_rig:r_index_fk_1_joint
+    100626: boy_rig:r_index_fk_base_joint
+    100628: boy_rig:r_index_sdk_1_grpOffset
+    100630: boy_rig:r_index_sdk_1_grpOffset_orient
+    100632: boy_rig:r_index_sdk_2_grpOffset
+    100634: boy_rig:r_index_sdk_2_grpOffset_orient
+    100636: boy_rig:r_knee_bind_joint
+    100638: boy_rig:r_knee_fk_joint
+    100640: boy_rig:r_knee_ik_joint
+    100642: boy_rig:r_leg_anim_grp
+    100644: boy_rig:r_leg_annotation_grp
+    100646: boy_rig:r_leg_dist_1_loc
+    100648: boy_rig:r_leg_dist_2_loc
+    100650: boy_rig:r_leg_dist_3_loc
+    100652: boy_rig:r_leg_dist_loc_grp
+    100654: boy_rig:r_leg_doNotTouch_grp_all
+    100656: boy_rig:r_leg_fkTracker_loc_grp
+    100658: boy_rig:r_leg_grp_all
+    100660: boy_rig:r_leg_ik_annotate
+    100662: boy_rig:r_leg_ikHandle_grp
+    100664: boy_rig:r_leg_ikTracker_loc_grp
+    100666: boy_rig:r_leg_joints_grp
+    100668: boy_rig:r_leg_pv_anim
+    100670: boy_rig:r_leg_pv_anim_orient
+    100672: boy_rig:r_leg_pvInfo_loc_grp
+    100674: boy_rig:r_leg_pvOffset_1_joint
+    100676: boy_rig:r_leg_pvOffset_2_joint
+    100678: boy_rig:r_leg_pvOffset_ikHandle
+    100680: boy_rig:r_leg_pvTarget_local_loc
+    100682: boy_rig:r_leg_pvTarget_local_loc_localSpace
+    100684: boy_rig:r_leg_pvTarget_local_loc_orient
+    100686: boy_rig:r_leg_pvTarget_world_loc
+    100688: boy_rig:r_leg_rp_ikHandle
+    100690: boy_rig:r_leg_switch_anim
+    100692: boy_rig:r_shoulder_bind_joint
+    100694: boy_rig:r_shoulder_fk_joint
+    100696: boy_rig:r_shoulder_fk_joint_constGrp
+    100698: boy_rig:r_shoulder_fk_joint_localSpace
+    100700: boy_rig:r_shoulder_fk_joint_orient
+    100702: boy_rig:r_shoulder_fk_posTracker_loc
+    100704: boy_rig:r_shoulder_fk_rotTracker_loc
+    100706: boy_rig:r_shoulder_fk_rotTracker_loc_orient
+    100708: boy_rig:r_shoulder_ik_joint
+    100710: boy_rig:r_shoulder_ik_posTracker_loc
+    100712: boy_rig:r_sternoclavicular_joint
+    100714: boy_rig:r_thigh_bind_joint
+    100716: boy_rig:r_thigh_fk_joint
+    100718: boy_rig:r_thigh_fk_joint_grpConst
+    100720: boy_rig:r_thigh_fk_joint_localSpace
+    100722: boy_rig:r_thigh_fk_joint_orient
+    100724: boy_rig:r_thigh_fk_posTracker_loc
+    100726: boy_rig:r_thigh_fk_rotTracker_loc
+    100728: boy_rig:r_thigh_fk_rotTracker_loc_orient
+    100730: boy_rig:r_thigh_ik_joint
+    100732: boy_rig:r_thigh_ik_posTracker_loc
+    100734: boy_rig:r_thumb_bind_1_joint
+    100736: boy_rig:r_thumb_bind_base_joint
+    100738: boy_rig:r_thumb_fk_base_joint
+    100740: boy_rig:r_thumb_sdk_1_grpOffset
+    100742: boy_rig:r_thumb_sdk_1_grpOffset_orient
+    100744: boy_rig:r_toe_bind_joint
+    100746: boy_rig:r_toe_fk_joint
+    100748: boy_rig:r_toe_ik_joint
+    100750: boy_rig:r_toe_sc_ikHandle
+    100752: boy_rig:r_wrist_bind_joint
+    100754: boy_rig:r_wrist_fk_joint
+    100756: boy_rig:r_wrist_fk_PosTracker_loc
+    100758: boy_rig:r_wrist_fk_PosTracker_locwrist_fk_rotTracker_loc_orient
+    100760: boy_rig:r_wrist_fk_rotTracker_loc
+    100762: boy_rig:r_wrist_ik_joint
+    100764: boy_rig:rig_grp_all
+    100766: boy_rig:rig_root_anim
+    100768: boy_rig:shoulder_anim
+    100770: boy_rig:shoulder_anim_grpConst
+    100772: boy_rig:shoulder_anim_orient
+    100774: boy_rig:shoulder_joint
+    100776: boy_rig:shoulder_joint_grpConst
+    100778: boy_rig:spine_anim_grp
+    100780: boy_rig:spine_base_joint
+    100782: boy_rig:spine_bind_1_joint
+    100784: boy_rig:spine_bind_2_joint
+    100786: boy_rig:spine_bind_3_joint
+    100788: boy_rig:spine_bind_4_joint
+    100790: boy_rig:spine_bind_5_joint
+    100792: boy_rig:spine_bind_6_joint
+    100794: boy_rig:spine_bind_7_joint
+    100796: boy_rig:spine_bind_curve
+    100798: boy_rig:spine_doNotTouch_grp
+    100800: boy_rig:spine_fk_1_joint
+    100802: boy_rig:spine_fk_1_joint_grpConst
+    100804: boy_rig:spine_fk_2_joint
+    100806: boy_rig:spine_fk_3_joint
+    100808: boy_rig:spine_grp_all
+    100810: boy_rig:spine_ik_1_joint
+    100812: boy_rig:spine_ik_2_joint
+    100814: boy_rig:spine_ik_3_joint
+    100816: boy_rig:spine_ik_4_joint
+    100818: boy_rig:spine_ik_5_joint
+    100820: boy_rig:spine_ik_6_joint
+    100822: boy_rig:spine_ik_7_joint
+    100824: boy_rig:spine_ikSpline_handle
+    100826: boy_rig:spine_joints_grp
+    100828: boy_rig:spine_midBend_anim
+    100830: boy_rig:spine_midBend_anim_orient
+    100832: boy_rig:spine_midBend_joint
+    100834: boy_rig:spine_motionPath_curve
+    100836: boy_rig:spine_pv_1_loc
+    100838: boy_rig:spine_pv_1_loc_orient
+    100840: boy_rig:spine_pv_2_loc
+    100842: boy_rig:spine_pv_2_loc_orient
+    100844: boy_rig:spine_pv_3_loc
+    100846: boy_rig:spine_pv_3_loc_orient
+    100848: boy_rig:spine_pv_4_loc
+    100850: boy_rig:spine_pv_4_loc_orient
+    100852: boy_rig:spine_pv_5_loc
+    100854: boy_rig:spine_pv_5_loc_orient
+    100856: boy_rig:spine_pv_6_loc
+    100858: boy_rig:spine_pv_6_loc_orient
+    100860: boy_rig:spine_pv_7_loc
+    100862: boy_rig:spine_pv_7_loc_orient
+    100864: boy_rig:spine_rp_1_ikHandle
+    100866: boy_rig:spine_rp_2_ikHandle
+    100868: boy_rig:spine_rp_3_ikHandle
+    100870: boy_rig:spine_rp_4_ikHandle
+    100872: boy_rig:spine_rp_5_ikHandle
+    100874: boy_rig:spine_rp_6_ikHandle
+    100876: boy_rig:spine_tip_joint
+    400000: //RootNode
+    400002: boy_rig:body_anim
+    400004: boy_rig:boy_geo
+    400006: boy_rig:boy_grp_all
+    400008: boy_rig:geo_grp_all
+    400010: boy_rig:head_anim
+    400012: boy_rig:head_anim_grpConst
+    400014: boy_rig:head_anim_orient
+    400016: boy_rig:head_joint
+    400018: boy_rig:hip_anim
+    400020: boy_rig:hip_anim_grpConst
+    400022: boy_rig:hip_anim_orient
+    400024: boy_rig:hip_joint
+    400026: boy_rig:hip_joint_grpConst
+    400028: boy_rig:l_acetabular_joint
+    400030: boy_rig:l_ankle_bind_joint
+    400032: boy_rig:l_ankle_fk_joint
+    400034: boy_rig:l_ankle_fk_PosTracker_loc
+    400036: boy_rig:l_ankle_fk_rotTracker_loc
+    400038: boy_rig:l_ankle_fk_rotTracker_loc_orient
+    400040: boy_rig:l_ankle_ik_joint
+    400042: boy_rig:l_arm_anim_grp
+    400044: boy_rig:l_arm_annotation_grp
+    400046: boy_rig:l_arm_dist_1_loc
+    400048: boy_rig:l_arm_dist_2_loc
+    400050: boy_rig:l_arm_dist_3_loc
+    400052: boy_rig:l_arm_dist_loc_grp
+    400054: boy_rig:l_arm_doNotTouch_grp_all
+    400056: boy_rig:l_arm_fkTracker_loc_grp
+    400058: boy_rig:l_arm_grp_all
+    400060: boy_rig:l_arm_ik_annotate
+    400062: boy_rig:l_arm_ikHandle_grp
+    400064: boy_rig:l_arm_ikTracker_loc_grp
+    400066: boy_rig:l_arm_joints_grp
+    400068: boy_rig:l_arm_pv_anim
+    400070: boy_rig:l_arm_pv_anim_orient
+    400072: boy_rig:l_arm_pvInfo_loc_grp
+    400074: boy_rig:l_arm_pvOffset_1_joint
+    400076: boy_rig:l_arm_pvOffset_2_joint
+    400078: boy_rig:l_arm_pvOffset_ikHandle
+    400080: boy_rig:l_arm_pvTarget_local_loc
+    400082: boy_rig:l_arm_pvTarget_local_loc_localSpace
+    400084: boy_rig:l_arm_pvTarget_local_loc_orient
+    400086: boy_rig:l_arm_pvTarget_world_loc
+    400088: boy_rig:l_arm_rp_ikHandle
+    400090: boy_rig:l_arm_switch_anim
+    400092: boy_rig:l_ball_bind_joint
+    400094: boy_rig:l_ball_fk_joint
+    400096: boy_rig:l_ball_ik_joint
+    400098: boy_rig:l_ball_sc_ikHandle
+    400100: boy_rig:l_calf_bind_1_joint
+    400102: boy_rig:l_calf_bind_2_joint
+    400104: boy_rig:l_calf_twistInfo_loc
+    400106: boy_rig:l_calf_twistInfo_loc_grp
+    400108: boy_rig:l_calf_twistInfo_loc_orient
+    400110: boy_rig:l_calf_twistTarget_loc
+    400112: boy_rig:l_calf_twistTarget_loc_orient
+    400114: boy_rig:l_clavicle_1_dist_loc
+    400116: boy_rig:l_clavicle_2_dist_loc
+    400118: boy_rig:l_clavicle_fk_1_joint
+    400120: boy_rig:l_clavicle_fk_1_joint_constGrp
+    400122: boy_rig:l_clavicle_fk_1_joint_localSpace
+    400124: boy_rig:l_clavicle_fk_1_joint_orient
+    400126: boy_rig:l_clavicle_fk_2_joint
+    400128: boy_rig:l_clavicle_ik_1_joint
+    400130: boy_rig:l_clavicle_ik_2_joint
+    400132: boy_rig:l_clavicle_ik_anim
+    400134: boy_rig:l_clavicle_ik_anim_grpConst
+    400136: boy_rig:l_clavicle_ik_anim_orient
+    400138: boy_rig:l_clavicle_sc_ikHandle
+    400140: boy_rig:l_clavicle_sc_ikHandle_constGrp
+    400142: boy_rig:l_elbow_bind_joint
+    400144: boy_rig:l_elbow_fk_joint
+    400146: boy_rig:l_elbow_ik_joint
+    400148: boy_rig:l_foot_anim_1_joint
+    400150: boy_rig:l_foot_anim_2_joint
+    400152: boy_rig:l_foot_anim_3_joint
+    400154: boy_rig:l_foot_anim_4_joint
+    400156: boy_rig:l_foot_anim_orient
+    400158: boy_rig:l_foot_anim_toeWiggle_1_joint
+    400160: boy_rig:l_foot_anim_toeWiggle_1_joint_orient
+    400162: boy_rig:l_foot_anim_toeWiggle_2_joint
+    400164: boy_rig:l_foot_ik_anim
+    400166: boy_rig:l_foot_rotTracker_loc
+    400168: boy_rig:l_foot_rotTracker_loc_grpConst
+    400170: boy_rig:l_foot_rotTracker_loc_orient
+    400172: boy_rig:l_foot_side_1_loc
+    400174: boy_rig:l_foot_side_2_loc
+    400176: boy_rig:l_forearm_bind_1_joint
+    400178: boy_rig:l_forearm_bind_2_joint
+    400180: boy_rig:l_forearm_twistInfo_loc
+    400182: boy_rig:l_forearm_twistInfo_loc_grp
+    400184: boy_rig:l_forearm_twistInfo_loc_orient
+    400186: boy_rig:l_forearm_twistTarget_loc
+    400188: boy_rig:l_forearm_twistTarget_loc_orient
+    400190: boy_rig:l_hand_anim_grp
+    400192: boy_rig:l_hand_anim_grp_orient
+    400194: boy_rig:l_hand_base_bind_joint
+    400196: boy_rig:l_hand_grp_all
+    400198: boy_rig:l_hand_ik_anim
+    400200: boy_rig:l_hand_ik_anim_grpConst
+    400202: boy_rig:l_hand_ik_anim_localSpace
+    400204: boy_rig:l_hand_ik_anim_orient
+    400206: boy_rig:l_hand_joints_grp
+    400208: boy_rig:l_heel_loc
+    400210: boy_rig:l_index_bind_1_joint
+    400212: boy_rig:l_index_bind_2_joint
+    400214: boy_rig:l_index_bind_base_joint
+    400216: boy_rig:l_index_fk_1_joint
+    400218: boy_rig:l_index_fk_base_joint
+    400220: boy_rig:l_index_sdk_1_grpOffset
+    400222: boy_rig:l_index_sdk_1_grpOffset_orient
+    400224: boy_rig:l_index_sdk_2_grpOffset
+    400226: boy_rig:l_index_sdk_2_grpOffset_orient
+    400228: boy_rig:l_knee_bind_joint
+    400230: boy_rig:l_knee_fk_joint
+    400232: boy_rig:l_knee_ik_joint
+    400234: boy_rig:l_leg_anim_grp
+    400236: boy_rig:l_leg_annotation_grp
+    400238: boy_rig:l_leg_dist_1_loc
+    400240: boy_rig:l_leg_dist_2_loc
+    400242: boy_rig:l_leg_dist_3_loc
+    400244: boy_rig:l_leg_dist_loc_grp
+    400246: boy_rig:l_leg_doNotTouch_grp_all
+    400248: boy_rig:l_leg_fkTracker_loc_grp
+    400250: boy_rig:l_leg_grp_all
+    400252: boy_rig:l_leg_ik_annotate
+    400254: boy_rig:l_leg_ikHandle_grp
+    400256: boy_rig:l_leg_ikTracker_loc_grp
+    400258: boy_rig:l_leg_joints_grp
+    400260: boy_rig:l_leg_pv_anim
+    400262: boy_rig:l_leg_pv_anim_orient
+    400264: boy_rig:l_leg_pvInfo_loc_grp
+    400266: boy_rig:l_leg_pvOffset_1_joint
+    400268: boy_rig:l_leg_pvOffset_2_joint
+    400270: boy_rig:l_leg_pvOffset_ikHandle
+    400272: boy_rig:l_leg_pvTarget_local_loc
+    400274: boy_rig:l_leg_pvTarget_local_loc_localSpace
+    400276: boy_rig:l_leg_pvTarget_local_loc_orient
+    400278: boy_rig:l_leg_pvTarget_world_loc
+    400280: boy_rig:l_leg_rp_ikHandle
+    400282: boy_rig:l_leg_switch_anim
+    400284: boy_rig:l_shoulder_bind_joint
+    400286: boy_rig:l_shoulder_fk_joint
+    400288: boy_rig:l_shoulder_fk_joint_constGrp
+    400290: boy_rig:l_shoulder_fk_joint_localSpace
+    400292: boy_rig:l_shoulder_fk_joint_orient
+    400294: boy_rig:l_shoulder_fk_posTracker_loc
+    400296: boy_rig:l_shoulder_fk_rotTracker_loc
+    400298: boy_rig:l_shoulder_fk_rotTracker_loc_orient
+    400300: boy_rig:l_shoulder_ik_joint
+    400302: boy_rig:l_shoulder_ik_posTracker_loc
+    400304: boy_rig:l_sternoclavicular_joint
+    400306: boy_rig:l_thigh_bind_joint
+    400308: boy_rig:l_thigh_fk_joint
+    400310: boy_rig:l_thigh_fk_joint_grpConst
+    400312: boy_rig:l_thigh_fk_joint_localSpace
+    400314: boy_rig:l_thigh_fk_joint_orient
+    400316: boy_rig:l_thigh_fk_posTracker_loc
+    400318: boy_rig:l_thigh_fk_rotTracker_loc
+    400320: boy_rig:l_thigh_fk_rotTracker_loc_orient
+    400322: boy_rig:l_thigh_ik_joint
+    400324: boy_rig:l_thigh_ik_posTracker_loc
+    400326: boy_rig:l_thumb_bind_1_joint
+    400328: boy_rig:l_thumb_bind_base_joint
+    400330: boy_rig:l_thumb_fk_base_joint
+    400332: boy_rig:l_thumb_sdk_1_grpOffset
+    400334: boy_rig:l_thumb_sdk_1_grpOffset_orient
+    400336: boy_rig:l_toe_bind_joint
+    400338: boy_rig:l_toe_fk_joint
+    400340: boy_rig:l_toe_ik_joint
+    400342: boy_rig:l_toe_sc_ikHandle
+    400344: boy_rig:l_wrist_bind_joint
+    400346: boy_rig:l_wrist_fk_joint
+    400348: boy_rig:l_wrist_fk_PosTracker_loc
+    400350: boy_rig:l_wrist_fk_PosTracker_locwrist_fk_rotTracker_loc_orient
+    400352: boy_rig:l_wrist_fk_rotTracker_loc
+    400354: boy_rig:l_wrist_ik_joint
+    400356: boy_rig:neck_anim_grp
+    400358: boy_rig:neck_base_anim
+    400360: boy_rig:neck_base_anim_grpConst
+    400362: boy_rig:neck_base_anim_orient
+    400364: boy_rig:neck_base_loc
+    400366: boy_rig:neck_bind_1_joint
+    400368: boy_rig:neck_bind_2_joint
+    400370: boy_rig:neck_bind_3_joint
+    400372: boy_rig:neck_bind_curve
+    400374: boy_rig:neck_doNotTouch_grp
+    400376: boy_rig:neck_fk_1_joint
+    400378: boy_rig:neck_fk_2_joint
+    400380: boy_rig:neck_grp_all
+    400382: boy_rig:neck_ik_1_joint
+    400384: boy_rig:neck_ik_2_joint
+    400386: boy_rig:neck_ik_3_joint
+    400388: boy_rig:neck_ikSpline_handle
+    400390: boy_rig:neck_joints_grp
+    400392: boy_rig:neck_joints_grpConst
+    400394: boy_rig:neck_midBend_anim
+    400396: boy_rig:neck_midBend_anim_orient
+    400398: boy_rig:neck_midBend_joint
+    400400: boy_rig:neck_motionPath_curve
+    400402: boy_rig:neck_pv_1_loc
+    400404: boy_rig:neck_pv_1_loc_orient
+    400406: boy_rig:neck_pv_2_loc
+    400408: boy_rig:neck_pv_2_loc_orient
+    400410: boy_rig:neck_pv_3_loc
+    400412: boy_rig:neck_pv_3_loc_orient
+    400414: boy_rig:neck_rp_1_ikHandle
+    400416: boy_rig:neck_rp_2_ikHandle
+    400418: boy_rig:neck_stiffener_1_joint
+    400420: boy_rig:neck_stiffener_2_joint
+    400422: boy_rig:neck_stiffener_3_joint
+    400424: boy_rig:neck_tip_anim
+    400426: boy_rig:neck_tip_anim_grpConst
+    400428: boy_rig:neck_tip_anim_orient
+    400430: boy_rig:neck_tip_joint
+    400432: boy_rig:neck_tip_joint_grpConst
+    400434: boy_rig:neck_tip_loc
+    400436: boy_rig:r_acetabular_joint
+    400438: boy_rig:r_ankle_bind_joint
+    400440: boy_rig:r_ankle_fk_joint
+    400442: boy_rig:r_ankle_fk_PosTracker_loc
+    400444: boy_rig:r_ankle_fk_rotTracker_loc
+    400446: boy_rig:r_ankle_fk_rotTracker_loc_orient
+    400448: boy_rig:r_ankle_ik_joint
+    400450: boy_rig:r_arm_anim_grp
+    400452: boy_rig:r_arm_annotation_grp
+    400454: boy_rig:r_arm_dist_1_loc
+    400456: boy_rig:r_arm_dist_2_loc
+    400458: boy_rig:r_arm_dist_3_loc
+    400460: boy_rig:r_arm_dist_loc_grp
+    400462: boy_rig:r_arm_doNotTouch_grp_all
+    400464: boy_rig:r_arm_fkTracker_loc_grp
+    400466: boy_rig:r_arm_grp_all
+    400468: boy_rig:r_arm_ik_annotate
+    400470: boy_rig:r_arm_ikHandle_grp
+    400472: boy_rig:r_arm_ikTracker_loc_grp
+    400474: boy_rig:r_arm_joints_grp
+    400476: boy_rig:r_arm_pv_anim
+    400478: boy_rig:r_arm_pv_anim_orient
+    400480: boy_rig:r_arm_pvInfo_loc_grp
+    400482: boy_rig:r_arm_pvOffset_1_joint
+    400484: boy_rig:r_arm_pvOffset_2_joint
+    400486: boy_rig:r_arm_pvOffset_ikHandle
+    400488: boy_rig:r_arm_pvTarget_local_loc
+    400490: boy_rig:r_arm_pvTarget_local_loc_localSpace
+    400492: boy_rig:r_arm_pvTarget_local_loc_orient
+    400494: boy_rig:r_arm_pvTarget_world_loc
+    400496: boy_rig:r_arm_rp_ikHandle
+    400498: boy_rig:r_arm_switch_anim
+    400500: boy_rig:r_ball_bind_joint
+    400502: boy_rig:r_ball_fk_joint
+    400504: boy_rig:r_ball_ik_joint
+    400506: boy_rig:r_ball_sc_ikHandle
+    400508: boy_rig:r_calf_bind_1_joint
+    400510: boy_rig:r_calf_bind_2_joint
+    400512: boy_rig:r_calf_twistInfo_loc
+    400514: boy_rig:r_calf_twistInfo_loc_grp
+    400516: boy_rig:r_calf_twistInfo_loc_orient
+    400518: boy_rig:r_calf_twistTarget_loc
+    400520: boy_rig:r_calf_twistTarget_loc_orient
+    400522: boy_rig:r_clavicle_1_dist_loc
+    400524: boy_rig:r_clavicle_2_dist_loc
+    400526: boy_rig:r_clavicle_fk_1_joint
+    400528: boy_rig:r_clavicle_fk_1_joint_constGrp
+    400530: boy_rig:r_clavicle_fk_1_joint_localSpace
+    400532: boy_rig:r_clavicle_fk_1_joint_orient
+    400534: boy_rig:r_clavicle_fk_2_joint
+    400536: boy_rig:r_clavicle_ik_1_joint
+    400538: boy_rig:r_clavicle_ik_2_joint
+    400540: boy_rig:r_clavicle_ik_anim
+    400542: boy_rig:r_clavicle_ik_anim_grpConst
+    400544: boy_rig:r_clavicle_ik_anim_orient
+    400546: boy_rig:r_clavicle_sc_ikHandle
+    400548: boy_rig:r_clavicle_sc_ikHandle_constGrp
+    400550: boy_rig:r_elbow_bind_joint
+    400552: boy_rig:r_elbow_fk_joint
+    400554: boy_rig:r_elbow_ik_joint
+    400556: boy_rig:r_foot_anim_1_joint
+    400558: boy_rig:r_foot_anim_2_joint
+    400560: boy_rig:r_foot_anim_3_joint
+    400562: boy_rig:r_foot_anim_4_joint
+    400564: boy_rig:r_foot_anim_orient
+    400566: boy_rig:r_foot_anim_toeWiggle_1_joint
+    400568: boy_rig:r_foot_anim_toeWiggle_1_joint_orient
+    400570: boy_rig:r_foot_anim_toeWiggle_2_joint
+    400572: boy_rig:r_foot_ik_anim
+    400574: boy_rig:r_foot_rotTracker_loc
+    400576: boy_rig:r_foot_rotTracker_loc_grpConst
+    400578: boy_rig:r_foot_rotTracker_loc_orient
+    400580: boy_rig:r_foot_side_1_loc
+    400582: boy_rig:r_foot_side_2_loc
+    400584: boy_rig:r_forearm_bind_1_joint
+    400586: boy_rig:r_forearm_bind_2_joint
+    400588: boy_rig:r_forearm_twistInfo_loc
+    400590: boy_rig:r_forearm_twistInfo_loc_grp
+    400592: boy_rig:r_forearm_twistInfo_loc_orient
+    400594: boy_rig:r_forearm_twistTarget_loc
+    400596: boy_rig:r_forearm_twistTarget_loc_orient
+    400598: boy_rig:r_hand_anim_grp
+    400600: boy_rig:r_hand_anim_grp_orient
+    400602: boy_rig:r_hand_base_bind_joint
+    400604: boy_rig:r_hand_grp_all
+    400606: boy_rig:r_hand_ik_anim
+    400608: boy_rig:r_hand_ik_anim_grpConst
+    400610: boy_rig:r_hand_ik_anim_localSpace
+    400612: boy_rig:r_hand_ik_anim_orient
+    400614: boy_rig:r_hand_joints_grp
+    400616: boy_rig:r_heel_loc
+    400618: boy_rig:r_index_bind_1_joint
+    400620: boy_rig:r_index_bind_2_joint
+    400622: boy_rig:r_index_bind_base_joint
+    400624: boy_rig:r_index_fk_1_joint
+    400626: boy_rig:r_index_fk_base_joint
+    400628: boy_rig:r_index_sdk_1_grpOffset
+    400630: boy_rig:r_index_sdk_1_grpOffset_orient
+    400632: boy_rig:r_index_sdk_2_grpOffset
+    400634: boy_rig:r_index_sdk_2_grpOffset_orient
+    400636: boy_rig:r_knee_bind_joint
+    400638: boy_rig:r_knee_fk_joint
+    400640: boy_rig:r_knee_ik_joint
+    400642: boy_rig:r_leg_anim_grp
+    400644: boy_rig:r_leg_annotation_grp
+    400646: boy_rig:r_leg_dist_1_loc
+    400648: boy_rig:r_leg_dist_2_loc
+    400650: boy_rig:r_leg_dist_3_loc
+    400652: boy_rig:r_leg_dist_loc_grp
+    400654: boy_rig:r_leg_doNotTouch_grp_all
+    400656: boy_rig:r_leg_fkTracker_loc_grp
+    400658: boy_rig:r_leg_grp_all
+    400660: boy_rig:r_leg_ik_annotate
+    400662: boy_rig:r_leg_ikHandle_grp
+    400664: boy_rig:r_leg_ikTracker_loc_grp
+    400666: boy_rig:r_leg_joints_grp
+    400668: boy_rig:r_leg_pv_anim
+    400670: boy_rig:r_leg_pv_anim_orient
+    400672: boy_rig:r_leg_pvInfo_loc_grp
+    400674: boy_rig:r_leg_pvOffset_1_joint
+    400676: boy_rig:r_leg_pvOffset_2_joint
+    400678: boy_rig:r_leg_pvOffset_ikHandle
+    400680: boy_rig:r_leg_pvTarget_local_loc
+    400682: boy_rig:r_leg_pvTarget_local_loc_localSpace
+    400684: boy_rig:r_leg_pvTarget_local_loc_orient
+    400686: boy_rig:r_leg_pvTarget_world_loc
+    400688: boy_rig:r_leg_rp_ikHandle
+    400690: boy_rig:r_leg_switch_anim
+    400692: boy_rig:r_shoulder_bind_joint
+    400694: boy_rig:r_shoulder_fk_joint
+    400696: boy_rig:r_shoulder_fk_joint_constGrp
+    400698: boy_rig:r_shoulder_fk_joint_localSpace
+    400700: boy_rig:r_shoulder_fk_joint_orient
+    400702: boy_rig:r_shoulder_fk_posTracker_loc
+    400704: boy_rig:r_shoulder_fk_rotTracker_loc
+    400706: boy_rig:r_shoulder_fk_rotTracker_loc_orient
+    400708: boy_rig:r_shoulder_ik_joint
+    400710: boy_rig:r_shoulder_ik_posTracker_loc
+    400712: boy_rig:r_sternoclavicular_joint
+    400714: boy_rig:r_thigh_bind_joint
+    400716: boy_rig:r_thigh_fk_joint
+    400718: boy_rig:r_thigh_fk_joint_grpConst
+    400720: boy_rig:r_thigh_fk_joint_localSpace
+    400722: boy_rig:r_thigh_fk_joint_orient
+    400724: boy_rig:r_thigh_fk_posTracker_loc
+    400726: boy_rig:r_thigh_fk_rotTracker_loc
+    400728: boy_rig:r_thigh_fk_rotTracker_loc_orient
+    400730: boy_rig:r_thigh_ik_joint
+    400732: boy_rig:r_thigh_ik_posTracker_loc
+    400734: boy_rig:r_thumb_bind_1_joint
+    400736: boy_rig:r_thumb_bind_base_joint
+    400738: boy_rig:r_thumb_fk_base_joint
+    400740: boy_rig:r_thumb_sdk_1_grpOffset
+    400742: boy_rig:r_thumb_sdk_1_grpOffset_orient
+    400744: boy_rig:r_toe_bind_joint
+    400746: boy_rig:r_toe_fk_joint
+    400748: boy_rig:r_toe_ik_joint
+    400750: boy_rig:r_toe_sc_ikHandle
+    400752: boy_rig:r_wrist_bind_joint
+    400754: boy_rig:r_wrist_fk_joint
+    400756: boy_rig:r_wrist_fk_PosTracker_loc
+    400758: boy_rig:r_wrist_fk_PosTracker_locwrist_fk_rotTracker_loc_orient
+    400760: boy_rig:r_wrist_fk_rotTracker_loc
+    400762: boy_rig:r_wrist_ik_joint
+    400764: boy_rig:rig_grp_all
+    400766: boy_rig:rig_root_anim
+    400768: boy_rig:shoulder_anim
+    400770: boy_rig:shoulder_anim_grpConst
+    400772: boy_rig:shoulder_anim_orient
+    400774: boy_rig:shoulder_joint
+    400776: boy_rig:shoulder_joint_grpConst
+    400778: boy_rig:spine_anim_grp
+    400780: boy_rig:spine_base_joint
+    400782: boy_rig:spine_bind_1_joint
+    400784: boy_rig:spine_bind_2_joint
+    400786: boy_rig:spine_bind_3_joint
+    400788: boy_rig:spine_bind_4_joint
+    400790: boy_rig:spine_bind_5_joint
+    400792: boy_rig:spine_bind_6_joint
+    400794: boy_rig:spine_bind_7_joint
+    400796: boy_rig:spine_bind_curve
+    400798: boy_rig:spine_doNotTouch_grp
+    400800: boy_rig:spine_fk_1_joint
+    400802: boy_rig:spine_fk_1_joint_grpConst
+    400804: boy_rig:spine_fk_2_joint
+    400806: boy_rig:spine_fk_3_joint
+    400808: boy_rig:spine_grp_all
+    400810: boy_rig:spine_ik_1_joint
+    400812: boy_rig:spine_ik_2_joint
+    400814: boy_rig:spine_ik_3_joint
+    400816: boy_rig:spine_ik_4_joint
+    400818: boy_rig:spine_ik_5_joint
+    400820: boy_rig:spine_ik_6_joint
+    400822: boy_rig:spine_ik_7_joint
+    400824: boy_rig:spine_ikSpline_handle
+    400826: boy_rig:spine_joints_grp
+    400828: boy_rig:spine_midBend_anim
+    400830: boy_rig:spine_midBend_anim_orient
+    400832: boy_rig:spine_midBend_joint
+    400834: boy_rig:spine_motionPath_curve
+    400836: boy_rig:spine_pv_1_loc
+    400838: boy_rig:spine_pv_1_loc_orient
+    400840: boy_rig:spine_pv_2_loc
+    400842: boy_rig:spine_pv_2_loc_orient
+    400844: boy_rig:spine_pv_3_loc
+    400846: boy_rig:spine_pv_3_loc_orient
+    400848: boy_rig:spine_pv_4_loc
+    400850: boy_rig:spine_pv_4_loc_orient
+    400852: boy_rig:spine_pv_5_loc
+    400854: boy_rig:spine_pv_5_loc_orient
+    400856: boy_rig:spine_pv_6_loc
+    400858: boy_rig:spine_pv_6_loc_orient
+    400860: boy_rig:spine_pv_7_loc
+    400862: boy_rig:spine_pv_7_loc_orient
+    400864: boy_rig:spine_rp_1_ikHandle
+    400866: boy_rig:spine_rp_2_ikHandle
+    400868: boy_rig:spine_rp_3_ikHandle
+    400870: boy_rig:spine_rp_4_ikHandle
+    400872: boy_rig:spine_rp_5_ikHandle
+    400874: boy_rig:spine_rp_6_ikHandle
+    400876: boy_rig:spine_tip_joint
+    4300000: boy_rig:boy_geo
+    7400000: FirstAid Idle
+    9500000: //RootNode
+    13700000: boy_rig:boy_geo
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: FirstAid Idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 179
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: boy_rig:boy_geo
+        weight: 1
+      - path: boy_rig:boy_grp_all
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:geo_grp_all
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_anim_grp
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_anim_grp/boy_rig:l_arm_pv_anim_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_anim_grp/boy_rig:l_arm_pv_anim_orient/boy_rig:l_arm_pv_anim
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_anim_grp/boy_rig:l_arm_switch_anim
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_anim_grp/boy_rig:l_clavicle_ik_anim_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_anim_grp/boy_rig:l_clavicle_ik_anim_orient/boy_rig:l_clavicle_ik_anim
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_anim_grp/boy_rig:l_clavicle_ik_anim_orient/boy_rig:l_clavicle_ik_anim/boy_rig:l_clavicle_sc_ikHandle_constGrp
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_anim_grp/boy_rig:l_hand_ik_anim_localSpace
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_anim_grp/boy_rig:l_hand_ik_anim_localSpace/boy_rig:l_hand_ik_anim_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_anim_grp/boy_rig:l_hand_ik_anim_localSpace/boy_rig:l_hand_ik_anim_orient/boy_rig:l_hand_ik_anim
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_annotation_grp
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_annotation_grp/boy_rig:l_arm_ik_annotate
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_doNotTouch_grp_all
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_doNotTouch_grp_all/boy_rig:l_arm_dist_loc_grp
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_doNotTouch_grp_all/boy_rig:l_arm_dist_loc_grp/boy_rig:l_arm_dist_1_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_doNotTouch_grp_all/boy_rig:l_arm_dist_loc_grp/boy_rig:l_arm_dist_2_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_doNotTouch_grp_all/boy_rig:l_arm_dist_loc_grp/boy_rig:l_arm_dist_3_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_doNotTouch_grp_all/boy_rig:l_arm_dist_loc_grp/boy_rig:l_clavicle_1_dist_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_doNotTouch_grp_all/boy_rig:l_arm_dist_loc_grp/boy_rig:l_clavicle_2_dist_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_doNotTouch_grp_all/boy_rig:l_arm_fkTracker_loc_grp
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_doNotTouch_grp_all/boy_rig:l_arm_fkTracker_loc_grp/boy_rig:l_shoulder_fk_posTracker_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_doNotTouch_grp_all/boy_rig:l_arm_fkTracker_loc_grp/boy_rig:l_shoulder_fk_rotTracker_loc_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_doNotTouch_grp_all/boy_rig:l_arm_fkTracker_loc_grp/boy_rig:l_shoulder_fk_rotTracker_loc_orient/boy_rig:l_shoulder_fk_rotTracker_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_doNotTouch_grp_all/boy_rig:l_arm_fkTracker_loc_grp/boy_rig:l_wrist_fk_PosTracker_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_doNotTouch_grp_all/boy_rig:l_arm_ikHandle_grp
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_doNotTouch_grp_all/boy_rig:l_arm_ikHandle_grp/boy_rig:l_arm_pvOffset_ikHandle
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_doNotTouch_grp_all/boy_rig:l_arm_ikHandle_grp/boy_rig:l_arm_rp_ikHandle
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_doNotTouch_grp_all/boy_rig:l_arm_ikHandle_grp/boy_rig:l_clavicle_sc_ikHandle
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_doNotTouch_grp_all/boy_rig:l_arm_ikTracker_loc_grp
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_doNotTouch_grp_all/boy_rig:l_arm_ikTracker_loc_grp/boy_rig:l_shoulder_ik_posTracker_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_doNotTouch_grp_all/boy_rig:l_arm_pvInfo_loc_grp
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_doNotTouch_grp_all/boy_rig:l_arm_pvInfo_loc_grp/boy_rig:l_arm_pvTarget_local_loc_localSpace
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_doNotTouch_grp_all/boy_rig:l_arm_pvInfo_loc_grp/boy_rig:l_arm_pvTarget_local_loc_localSpace/boy_rig:l_arm_pvTarget_local_loc_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_doNotTouch_grp_all/boy_rig:l_arm_pvInfo_loc_grp/boy_rig:l_arm_pvTarget_local_loc_localSpace/boy_rig:l_arm_pvTarget_local_loc_orient/boy_rig:l_arm_pvTarget_local_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_doNotTouch_grp_all/boy_rig:l_arm_pvInfo_loc_grp/boy_rig:l_arm_pvTarget_world_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_doNotTouch_grp_all/boy_rig:l_forearm_twistInfo_loc_grp
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_doNotTouch_grp_all/boy_rig:l_forearm_twistInfo_loc_grp/boy_rig:l_forearm_twistInfo_loc_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_doNotTouch_grp_all/boy_rig:l_forearm_twistInfo_loc_grp/boy_rig:l_forearm_twistInfo_loc_orient/boy_rig:l_forearm_twistInfo_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_doNotTouch_grp_all/boy_rig:l_forearm_twistInfo_loc_grp/boy_rig:l_forearm_twistTarget_loc_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_doNotTouch_grp_all/boy_rig:l_forearm_twistInfo_loc_grp/boy_rig:l_forearm_twistTarget_loc_orient/boy_rig:l_forearm_twistTarget_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_joints_grp
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_joints_grp/boy_rig:l_arm_pvOffset_1_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_joints_grp/boy_rig:l_arm_pvOffset_1_joint/boy_rig:l_arm_pvOffset_2_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_joints_grp/boy_rig:l_clavicle_fk_1_joint_localSpace
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_joints_grp/boy_rig:l_clavicle_fk_1_joint_localSpace/boy_rig:l_clavicle_fk_1_joint_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_joints_grp/boy_rig:l_clavicle_fk_1_joint_localSpace/boy_rig:l_clavicle_fk_1_joint_orient/boy_rig:l_clavicle_fk_1_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_joints_grp/boy_rig:l_clavicle_fk_1_joint_localSpace/boy_rig:l_clavicle_fk_1_joint_orient/boy_rig:l_clavicle_fk_1_joint/boy_rig:l_clavicle_fk_2_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_joints_grp/boy_rig:l_clavicle_fk_1_joint_localSpace/boy_rig:l_clavicle_fk_1_joint_orient/boy_rig:l_clavicle_fk_1_joint/boy_rig:l_clavicle_fk_2_joint/boy_rig:l_clavicle_ik_anim_grpConst
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_joints_grp/boy_rig:l_clavicle_ik_1_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_joints_grp/boy_rig:l_clavicle_ik_1_joint/boy_rig:l_clavicle_ik_2_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_joints_grp/boy_rig:l_clavicle_ik_1_joint/boy_rig:l_clavicle_ik_2_joint/boy_rig:l_shoulder_fk_joint_constGrp
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_joints_grp/boy_rig:l_shoulder_bind_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_joints_grp/boy_rig:l_shoulder_bind_joint/boy_rig:l_elbow_bind_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_joints_grp/boy_rig:l_shoulder_bind_joint/boy_rig:l_elbow_bind_joint/boy_rig:l_forearm_bind_1_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_joints_grp/boy_rig:l_shoulder_bind_joint/boy_rig:l_elbow_bind_joint/boy_rig:l_forearm_bind_1_joint/boy_rig:l_forearm_bind_2_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_joints_grp/boy_rig:l_shoulder_bind_joint/boy_rig:l_elbow_bind_joint/boy_rig:l_wrist_bind_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_joints_grp/boy_rig:l_shoulder_fk_joint_localSpace
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_joints_grp/boy_rig:l_shoulder_fk_joint_localSpace/boy_rig:l_shoulder_fk_joint_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_joints_grp/boy_rig:l_shoulder_fk_joint_localSpace/boy_rig:l_shoulder_fk_joint_orient/boy_rig:l_shoulder_fk_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_joints_grp/boy_rig:l_shoulder_fk_joint_localSpace/boy_rig:l_shoulder_fk_joint_orient/boy_rig:l_shoulder_fk_joint/boy_rig:l_elbow_fk_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_joints_grp/boy_rig:l_shoulder_fk_joint_localSpace/boy_rig:l_shoulder_fk_joint_orient/boy_rig:l_shoulder_fk_joint/boy_rig:l_elbow_fk_joint/boy_rig:l_wrist_fk_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_joints_grp/boy_rig:l_shoulder_fk_joint_localSpace/boy_rig:l_shoulder_fk_joint_orient/boy_rig:l_shoulder_fk_joint/boy_rig:l_elbow_fk_joint/boy_rig:l_wrist_fk_joint/boy_rig:l_wrist_fk_PosTracker_locwrist_fk_rotTracker_loc_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_joints_grp/boy_rig:l_shoulder_fk_joint_localSpace/boy_rig:l_shoulder_fk_joint_orient/boy_rig:l_shoulder_fk_joint/boy_rig:l_elbow_fk_joint/boy_rig:l_wrist_fk_joint/boy_rig:l_wrist_fk_PosTracker_locwrist_fk_rotTracker_loc_orient/boy_rig:l_wrist_fk_rotTracker_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_joints_grp/boy_rig:l_shoulder_ik_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_joints_grp/boy_rig:l_shoulder_ik_joint/boy_rig:l_elbow_ik_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_arm_grp_all/boy_rig:l_arm_joints_grp/boy_rig:l_shoulder_ik_joint/boy_rig:l_elbow_ik_joint/boy_rig:l_wrist_ik_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_hand_grp_all
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_hand_grp_all/boy_rig:l_hand_anim_grp_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_hand_grp_all/boy_rig:l_hand_anim_grp_orient/boy_rig:l_hand_anim_grp
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_hand_grp_all/boy_rig:l_hand_anim_grp_orient/boy_rig:l_hand_anim_grp/boy_rig:l_index_fk_base_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_hand_grp_all/boy_rig:l_hand_anim_grp_orient/boy_rig:l_hand_anim_grp/boy_rig:l_index_fk_base_joint/boy_rig:l_index_sdk_1_grpOffset_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_hand_grp_all/boy_rig:l_hand_anim_grp_orient/boy_rig:l_hand_anim_grp/boy_rig:l_index_fk_base_joint/boy_rig:l_index_sdk_1_grpOffset_orient/boy_rig:l_index_sdk_1_grpOffset
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_hand_grp_all/boy_rig:l_hand_anim_grp_orient/boy_rig:l_hand_anim_grp/boy_rig:l_index_fk_base_joint/boy_rig:l_index_sdk_1_grpOffset_orient/boy_rig:l_index_sdk_1_grpOffset/boy_rig:l_index_fk_1_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_hand_grp_all/boy_rig:l_hand_anim_grp_orient/boy_rig:l_hand_anim_grp/boy_rig:l_index_fk_base_joint/boy_rig:l_index_sdk_1_grpOffset_orient/boy_rig:l_index_sdk_1_grpOffset/boy_rig:l_index_fk_1_joint/boy_rig:l_index_sdk_2_grpOffset_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_hand_grp_all/boy_rig:l_hand_anim_grp_orient/boy_rig:l_hand_anim_grp/boy_rig:l_index_fk_base_joint/boy_rig:l_index_sdk_1_grpOffset_orient/boy_rig:l_index_sdk_1_grpOffset/boy_rig:l_index_fk_1_joint/boy_rig:l_index_sdk_2_grpOffset_orient/boy_rig:l_index_sdk_2_grpOffset
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_hand_grp_all/boy_rig:l_hand_anim_grp_orient/boy_rig:l_hand_anim_grp/boy_rig:l_thumb_fk_base_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_hand_grp_all/boy_rig:l_hand_anim_grp_orient/boy_rig:l_hand_anim_grp/boy_rig:l_thumb_fk_base_joint/boy_rig:l_thumb_sdk_1_grpOffset_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_hand_grp_all/boy_rig:l_hand_anim_grp_orient/boy_rig:l_hand_anim_grp/boy_rig:l_thumb_fk_base_joint/boy_rig:l_thumb_sdk_1_grpOffset_orient/boy_rig:l_thumb_sdk_1_grpOffset
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_hand_grp_all/boy_rig:l_hand_joints_grp
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_hand_grp_all/boy_rig:l_hand_joints_grp/boy_rig:l_hand_base_bind_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_hand_grp_all/boy_rig:l_hand_joints_grp/boy_rig:l_hand_base_bind_joint/boy_rig:l_index_bind_base_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_hand_grp_all/boy_rig:l_hand_joints_grp/boy_rig:l_hand_base_bind_joint/boy_rig:l_index_bind_base_joint/boy_rig:l_index_bind_1_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_hand_grp_all/boy_rig:l_hand_joints_grp/boy_rig:l_hand_base_bind_joint/boy_rig:l_index_bind_base_joint/boy_rig:l_index_bind_1_joint/boy_rig:l_index_bind_2_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_hand_grp_all/boy_rig:l_hand_joints_grp/boy_rig:l_hand_base_bind_joint/boy_rig:l_thumb_bind_base_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_hand_grp_all/boy_rig:l_hand_joints_grp/boy_rig:l_hand_base_bind_joint/boy_rig:l_thumb_bind_base_joint/boy_rig:l_thumb_bind_1_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_anim_grp
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_anim_grp/boy_rig:l_foot_anim_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_anim_grp/boy_rig:l_foot_anim_orient/boy_rig:l_foot_ik_anim
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_anim_grp/boy_rig:l_foot_anim_orient/boy_rig:l_foot_ik_anim/boy_rig:l_heel_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_anim_grp/boy_rig:l_foot_anim_orient/boy_rig:l_foot_ik_anim/boy_rig:l_heel_loc/boy_rig:l_foot_side_1_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_anim_grp/boy_rig:l_foot_anim_orient/boy_rig:l_foot_ik_anim/boy_rig:l_heel_loc/boy_rig:l_foot_side_1_loc/boy_rig:l_foot_side_2_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_anim_grp/boy_rig:l_foot_anim_orient/boy_rig:l_foot_ik_anim/boy_rig:l_heel_loc/boy_rig:l_foot_side_1_loc/boy_rig:l_foot_side_2_loc/boy_rig:l_foot_anim_1_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_anim_grp/boy_rig:l_foot_anim_orient/boy_rig:l_foot_ik_anim/boy_rig:l_heel_loc/boy_rig:l_foot_side_1_loc/boy_rig:l_foot_side_2_loc/boy_rig:l_foot_anim_1_joint/boy_rig:l_foot_anim_2_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_anim_grp/boy_rig:l_foot_anim_orient/boy_rig:l_foot_ik_anim/boy_rig:l_heel_loc/boy_rig:l_foot_side_1_loc/boy_rig:l_foot_side_2_loc/boy_rig:l_foot_anim_1_joint/boy_rig:l_foot_anim_2_joint/boy_rig:l_foot_anim_3_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_anim_grp/boy_rig:l_foot_anim_orient/boy_rig:l_foot_ik_anim/boy_rig:l_heel_loc/boy_rig:l_foot_side_1_loc/boy_rig:l_foot_side_2_loc/boy_rig:l_foot_anim_1_joint/boy_rig:l_foot_anim_2_joint/boy_rig:l_foot_anim_3_joint/boy_rig:l_foot_anim_4_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_anim_grp/boy_rig:l_foot_anim_orient/boy_rig:l_foot_ik_anim/boy_rig:l_heel_loc/boy_rig:l_foot_side_1_loc/boy_rig:l_foot_side_2_loc/boy_rig:l_foot_anim_1_joint/boy_rig:l_foot_anim_2_joint/boy_rig:l_foot_anim_3_joint/boy_rig:l_foot_anim_toeWiggle_1_joint_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_anim_grp/boy_rig:l_foot_anim_orient/boy_rig:l_foot_ik_anim/boy_rig:l_heel_loc/boy_rig:l_foot_side_1_loc/boy_rig:l_foot_side_2_loc/boy_rig:l_foot_anim_1_joint/boy_rig:l_foot_anim_2_joint/boy_rig:l_foot_anim_3_joint/boy_rig:l_foot_anim_toeWiggle_1_joint_orient/boy_rig:l_foot_anim_toeWiggle_1_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_anim_grp/boy_rig:l_foot_anim_orient/boy_rig:l_foot_ik_anim/boy_rig:l_heel_loc/boy_rig:l_foot_side_1_loc/boy_rig:l_foot_side_2_loc/boy_rig:l_foot_anim_1_joint/boy_rig:l_foot_anim_2_joint/boy_rig:l_foot_anim_3_joint/boy_rig:l_foot_anim_toeWiggle_1_joint_orient/boy_rig:l_foot_anim_toeWiggle_1_joint/boy_rig:l_foot_anim_toeWiggle_2_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_anim_grp/boy_rig:l_leg_pv_anim_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_anim_grp/boy_rig:l_leg_pv_anim_orient/boy_rig:l_leg_pv_anim
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_anim_grp/boy_rig:l_leg_switch_anim
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_annotation_grp
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_annotation_grp/boy_rig:l_leg_ik_annotate
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_doNotTouch_grp_all
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_doNotTouch_grp_all/boy_rig:l_calf_twistInfo_loc_grp
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_doNotTouch_grp_all/boy_rig:l_calf_twistInfo_loc_grp/boy_rig:l_calf_twistInfo_loc_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_doNotTouch_grp_all/boy_rig:l_calf_twistInfo_loc_grp/boy_rig:l_calf_twistInfo_loc_orient/boy_rig:l_calf_twistInfo_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_doNotTouch_grp_all/boy_rig:l_calf_twistInfo_loc_grp/boy_rig:l_calf_twistTarget_loc_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_doNotTouch_grp_all/boy_rig:l_calf_twistInfo_loc_grp/boy_rig:l_calf_twistTarget_loc_orient/boy_rig:l_calf_twistTarget_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_doNotTouch_grp_all/boy_rig:l_calf_twistInfo_loc_grp/boy_rig:l_foot_rotTracker_loc_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_doNotTouch_grp_all/boy_rig:l_calf_twistInfo_loc_grp/boy_rig:l_foot_rotTracker_loc_orient/boy_rig:l_foot_rotTracker_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_doNotTouch_grp_all/boy_rig:l_leg_dist_loc_grp
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_doNotTouch_grp_all/boy_rig:l_leg_dist_loc_grp/boy_rig:l_leg_dist_1_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_doNotTouch_grp_all/boy_rig:l_leg_dist_loc_grp/boy_rig:l_leg_dist_2_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_doNotTouch_grp_all/boy_rig:l_leg_dist_loc_grp/boy_rig:l_leg_dist_3_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_doNotTouch_grp_all/boy_rig:l_leg_fkTracker_loc_grp
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_doNotTouch_grp_all/boy_rig:l_leg_fkTracker_loc_grp/boy_rig:l_ankle_fk_PosTracker_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_doNotTouch_grp_all/boy_rig:l_leg_fkTracker_loc_grp/boy_rig:l_thigh_fk_posTracker_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_doNotTouch_grp_all/boy_rig:l_leg_fkTracker_loc_grp/boy_rig:l_thigh_fk_rotTracker_loc_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_doNotTouch_grp_all/boy_rig:l_leg_fkTracker_loc_grp/boy_rig:l_thigh_fk_rotTracker_loc_orient/boy_rig:l_thigh_fk_rotTracker_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_doNotTouch_grp_all/boy_rig:l_leg_ikHandle_grp
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_doNotTouch_grp_all/boy_rig:l_leg_ikHandle_grp/boy_rig:l_ball_sc_ikHandle
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_doNotTouch_grp_all/boy_rig:l_leg_ikHandle_grp/boy_rig:l_leg_pvOffset_ikHandle
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_doNotTouch_grp_all/boy_rig:l_leg_ikHandle_grp/boy_rig:l_leg_rp_ikHandle
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_doNotTouch_grp_all/boy_rig:l_leg_ikHandle_grp/boy_rig:l_toe_sc_ikHandle
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_doNotTouch_grp_all/boy_rig:l_leg_ikTracker_loc_grp
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_doNotTouch_grp_all/boy_rig:l_leg_ikTracker_loc_grp/boy_rig:l_thigh_ik_posTracker_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_doNotTouch_grp_all/boy_rig:l_leg_pvInfo_loc_grp
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_doNotTouch_grp_all/boy_rig:l_leg_pvInfo_loc_grp/boy_rig:l_leg_pvTarget_local_loc_localSpace
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_doNotTouch_grp_all/boy_rig:l_leg_pvInfo_loc_grp/boy_rig:l_leg_pvTarget_local_loc_localSpace/boy_rig:l_leg_pvTarget_local_loc_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_doNotTouch_grp_all/boy_rig:l_leg_pvInfo_loc_grp/boy_rig:l_leg_pvTarget_local_loc_localSpace/boy_rig:l_leg_pvTarget_local_loc_orient/boy_rig:l_leg_pvTarget_local_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_doNotTouch_grp_all/boy_rig:l_leg_pvInfo_loc_grp/boy_rig:l_leg_pvTarget_world_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_joints_grp
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_joints_grp/boy_rig:l_leg_pvOffset_1_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_joints_grp/boy_rig:l_leg_pvOffset_1_joint/boy_rig:l_leg_pvOffset_2_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_joints_grp/boy_rig:l_thigh_bind_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_joints_grp/boy_rig:l_thigh_bind_joint/boy_rig:l_knee_bind_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_joints_grp/boy_rig:l_thigh_bind_joint/boy_rig:l_knee_bind_joint/boy_rig:l_ankle_bind_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_joints_grp/boy_rig:l_thigh_bind_joint/boy_rig:l_knee_bind_joint/boy_rig:l_ankle_bind_joint/boy_rig:l_ball_bind_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_joints_grp/boy_rig:l_thigh_bind_joint/boy_rig:l_knee_bind_joint/boy_rig:l_ankle_bind_joint/boy_rig:l_ball_bind_joint/boy_rig:l_toe_bind_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_joints_grp/boy_rig:l_thigh_bind_joint/boy_rig:l_knee_bind_joint/boy_rig:l_ankle_bind_joint/boy_rig:l_foot_rotTracker_loc_grpConst
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_joints_grp/boy_rig:l_thigh_bind_joint/boy_rig:l_knee_bind_joint/boy_rig:l_calf_bind_1_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_joints_grp/boy_rig:l_thigh_bind_joint/boy_rig:l_knee_bind_joint/boy_rig:l_calf_bind_1_joint/boy_rig:l_calf_bind_2_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_joints_grp/boy_rig:l_thigh_fk_joint_localSpace
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_joints_grp/boy_rig:l_thigh_fk_joint_localSpace/boy_rig:l_thigh_fk_joint_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_joints_grp/boy_rig:l_thigh_fk_joint_localSpace/boy_rig:l_thigh_fk_joint_orient/boy_rig:l_thigh_fk_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_joints_grp/boy_rig:l_thigh_fk_joint_localSpace/boy_rig:l_thigh_fk_joint_orient/boy_rig:l_thigh_fk_joint/boy_rig:l_knee_fk_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_joints_grp/boy_rig:l_thigh_fk_joint_localSpace/boy_rig:l_thigh_fk_joint_orient/boy_rig:l_thigh_fk_joint/boy_rig:l_knee_fk_joint/boy_rig:l_ankle_fk_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_joints_grp/boy_rig:l_thigh_fk_joint_localSpace/boy_rig:l_thigh_fk_joint_orient/boy_rig:l_thigh_fk_joint/boy_rig:l_knee_fk_joint/boy_rig:l_ankle_fk_joint/boy_rig:l_ankle_fk_rotTracker_loc_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_joints_grp/boy_rig:l_thigh_fk_joint_localSpace/boy_rig:l_thigh_fk_joint_orient/boy_rig:l_thigh_fk_joint/boy_rig:l_knee_fk_joint/boy_rig:l_ankle_fk_joint/boy_rig:l_ankle_fk_rotTracker_loc_orient/boy_rig:l_ankle_fk_rotTracker_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_joints_grp/boy_rig:l_thigh_fk_joint_localSpace/boy_rig:l_thigh_fk_joint_orient/boy_rig:l_thigh_fk_joint/boy_rig:l_knee_fk_joint/boy_rig:l_ankle_fk_joint/boy_rig:l_ball_fk_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_joints_grp/boy_rig:l_thigh_fk_joint_localSpace/boy_rig:l_thigh_fk_joint_orient/boy_rig:l_thigh_fk_joint/boy_rig:l_knee_fk_joint/boy_rig:l_ankle_fk_joint/boy_rig:l_ball_fk_joint/boy_rig:l_toe_fk_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_joints_grp/boy_rig:l_thigh_ik_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_joints_grp/boy_rig:l_thigh_ik_joint/boy_rig:l_knee_ik_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_joints_grp/boy_rig:l_thigh_ik_joint/boy_rig:l_knee_ik_joint/boy_rig:l_ankle_ik_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_joints_grp/boy_rig:l_thigh_ik_joint/boy_rig:l_knee_ik_joint/boy_rig:l_ankle_ik_joint/boy_rig:l_ball_ik_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:l_leg_grp_all/boy_rig:l_leg_joints_grp/boy_rig:l_thigh_ik_joint/boy_rig:l_knee_ik_joint/boy_rig:l_ankle_ik_joint/boy_rig:l_ball_ik_joint/boy_rig:l_toe_ik_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:neck_grp_all
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:neck_grp_all/boy_rig:neck_anim_grp
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:neck_grp_all/boy_rig:neck_anim_grp/boy_rig:head_anim_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:neck_grp_all/boy_rig:neck_anim_grp/boy_rig:head_anim_orient/boy_rig:head_anim
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:neck_grp_all/boy_rig:neck_anim_grp/boy_rig:neck_base_anim_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:neck_grp_all/boy_rig:neck_anim_grp/boy_rig:neck_base_anim_orient/boy_rig:neck_base_anim
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:neck_grp_all/boy_rig:neck_anim_grp/boy_rig:neck_midBend_anim_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:neck_grp_all/boy_rig:neck_anim_grp/boy_rig:neck_midBend_anim_orient/boy_rig:neck_midBend_anim
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:neck_grp_all/boy_rig:neck_anim_grp/boy_rig:neck_tip_anim_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:neck_grp_all/boy_rig:neck_anim_grp/boy_rig:neck_tip_anim_orient/boy_rig:neck_tip_anim
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:neck_grp_all/boy_rig:neck_anim_grp/boy_rig:neck_tip_anim_orient/boy_rig:neck_tip_anim/boy_rig:neck_tip_joint_grpConst
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:neck_grp_all/boy_rig:neck_doNotTouch_grp
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:neck_grp_all/boy_rig:neck_doNotTouch_grp/boy_rig:neck_base_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:neck_grp_all/boy_rig:neck_doNotTouch_grp/boy_rig:neck_bind_curve
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:neck_grp_all/boy_rig:neck_doNotTouch_grp/boy_rig:neck_ikSpline_handle
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:neck_grp_all/boy_rig:neck_doNotTouch_grp/boy_rig:neck_motionPath_curve
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:neck_grp_all/boy_rig:neck_doNotTouch_grp/boy_rig:neck_rp_1_ikHandle
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:neck_grp_all/boy_rig:neck_doNotTouch_grp/boy_rig:neck_rp_2_ikHandle
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:neck_grp_all/boy_rig:neck_doNotTouch_grp/boy_rig:neck_tip_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:neck_grp_all/boy_rig:neck_joints_grp
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:neck_grp_all/boy_rig:neck_joints_grp/boy_rig:head_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:neck_grp_all/boy_rig:neck_joints_grp/boy_rig:neck_bind_1_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:neck_grp_all/boy_rig:neck_joints_grp/boy_rig:neck_bind_1_joint/boy_rig:neck_bind_2_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:neck_grp_all/boy_rig:neck_joints_grp/boy_rig:neck_bind_1_joint/boy_rig:neck_bind_2_joint/boy_rig:neck_bind_3_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:neck_grp_all/boy_rig:neck_joints_grp/boy_rig:neck_bind_1_joint/boy_rig:neck_bind_2_joint/boy_rig:neck_bind_3_joint/boy_rig:head_anim_grpConst
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:neck_grp_all/boy_rig:neck_joints_grp/boy_rig:neck_fk_1_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:neck_grp_all/boy_rig:neck_joints_grp/boy_rig:neck_fk_1_joint/boy_rig:neck_fk_2_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:neck_grp_all/boy_rig:neck_joints_grp/boy_rig:neck_fk_1_joint/boy_rig:neck_fk_2_joint/boy_rig:neck_tip_anim_grpConst
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:neck_grp_all/boy_rig:neck_joints_grp/boy_rig:neck_ik_1_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:neck_grp_all/boy_rig:neck_joints_grp/boy_rig:neck_ik_1_joint/boy_rig:neck_ik_2_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:neck_grp_all/boy_rig:neck_joints_grp/boy_rig:neck_ik_1_joint/boy_rig:neck_ik_2_joint/boy_rig:neck_ik_3_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:neck_grp_all/boy_rig:neck_joints_grp/boy_rig:neck_ik_1_joint/boy_rig:neck_ik_2_joint/boy_rig:neck_ik_3_joint/boy_rig:neck_pv_3_loc_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:neck_grp_all/boy_rig:neck_joints_grp/boy_rig:neck_ik_1_joint/boy_rig:neck_ik_2_joint/boy_rig:neck_ik_3_joint/boy_rig:neck_pv_3_loc_orient/boy_rig:neck_pv_3_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:neck_grp_all/boy_rig:neck_joints_grp/boy_rig:neck_ik_1_joint/boy_rig:neck_ik_2_joint/boy_rig:neck_pv_2_loc_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:neck_grp_all/boy_rig:neck_joints_grp/boy_rig:neck_ik_1_joint/boy_rig:neck_ik_2_joint/boy_rig:neck_pv_2_loc_orient/boy_rig:neck_pv_2_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:neck_grp_all/boy_rig:neck_joints_grp/boy_rig:neck_ik_1_joint/boy_rig:neck_pv_1_loc_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:neck_grp_all/boy_rig:neck_joints_grp/boy_rig:neck_ik_1_joint/boy_rig:neck_pv_1_loc_orient/boy_rig:neck_pv_1_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:neck_grp_all/boy_rig:neck_joints_grp/boy_rig:neck_midBend_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:neck_grp_all/boy_rig:neck_joints_grp/boy_rig:neck_stiffener_1_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:neck_grp_all/boy_rig:neck_joints_grp/boy_rig:neck_stiffener_1_joint/boy_rig:neck_stiffener_2_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:neck_grp_all/boy_rig:neck_joints_grp/boy_rig:neck_stiffener_1_joint/boy_rig:neck_stiffener_2_joint/boy_rig:neck_stiffener_3_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:neck_grp_all/boy_rig:neck_joints_grp/boy_rig:neck_tip_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_anim_grp
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_anim_grp/boy_rig:r_arm_pv_anim_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_anim_grp/boy_rig:r_arm_pv_anim_orient/boy_rig:r_arm_pv_anim
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_anim_grp/boy_rig:r_arm_switch_anim
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_anim_grp/boy_rig:r_clavicle_ik_anim_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_anim_grp/boy_rig:r_clavicle_ik_anim_orient/boy_rig:r_clavicle_ik_anim
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_anim_grp/boy_rig:r_clavicle_ik_anim_orient/boy_rig:r_clavicle_ik_anim/boy_rig:r_clavicle_sc_ikHandle_constGrp
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_anim_grp/boy_rig:r_hand_ik_anim_localSpace
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_anim_grp/boy_rig:r_hand_ik_anim_localSpace/boy_rig:r_hand_ik_anim_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_anim_grp/boy_rig:r_hand_ik_anim_localSpace/boy_rig:r_hand_ik_anim_orient/boy_rig:r_hand_ik_anim
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_annotation_grp
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_annotation_grp/boy_rig:r_arm_ik_annotate
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_doNotTouch_grp_all
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_doNotTouch_grp_all/boy_rig:r_arm_dist_loc_grp
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_doNotTouch_grp_all/boy_rig:r_arm_dist_loc_grp/boy_rig:r_arm_dist_1_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_doNotTouch_grp_all/boy_rig:r_arm_dist_loc_grp/boy_rig:r_arm_dist_2_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_doNotTouch_grp_all/boy_rig:r_arm_dist_loc_grp/boy_rig:r_arm_dist_3_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_doNotTouch_grp_all/boy_rig:r_arm_dist_loc_grp/boy_rig:r_clavicle_1_dist_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_doNotTouch_grp_all/boy_rig:r_arm_dist_loc_grp/boy_rig:r_clavicle_2_dist_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_doNotTouch_grp_all/boy_rig:r_arm_fkTracker_loc_grp
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_doNotTouch_grp_all/boy_rig:r_arm_fkTracker_loc_grp/boy_rig:r_shoulder_fk_posTracker_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_doNotTouch_grp_all/boy_rig:r_arm_fkTracker_loc_grp/boy_rig:r_shoulder_fk_rotTracker_loc_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_doNotTouch_grp_all/boy_rig:r_arm_fkTracker_loc_grp/boy_rig:r_shoulder_fk_rotTracker_loc_orient/boy_rig:r_shoulder_fk_rotTracker_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_doNotTouch_grp_all/boy_rig:r_arm_fkTracker_loc_grp/boy_rig:r_wrist_fk_PosTracker_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_doNotTouch_grp_all/boy_rig:r_arm_ikHandle_grp
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_doNotTouch_grp_all/boy_rig:r_arm_ikHandle_grp/boy_rig:r_arm_pvOffset_ikHandle
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_doNotTouch_grp_all/boy_rig:r_arm_ikHandle_grp/boy_rig:r_arm_rp_ikHandle
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_doNotTouch_grp_all/boy_rig:r_arm_ikHandle_grp/boy_rig:r_clavicle_sc_ikHandle
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_doNotTouch_grp_all/boy_rig:r_arm_ikTracker_loc_grp
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_doNotTouch_grp_all/boy_rig:r_arm_ikTracker_loc_grp/boy_rig:r_shoulder_ik_posTracker_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_doNotTouch_grp_all/boy_rig:r_arm_pvInfo_loc_grp
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_doNotTouch_grp_all/boy_rig:r_arm_pvInfo_loc_grp/boy_rig:r_arm_pvTarget_local_loc_localSpace
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_doNotTouch_grp_all/boy_rig:r_arm_pvInfo_loc_grp/boy_rig:r_arm_pvTarget_local_loc_localSpace/boy_rig:r_arm_pvTarget_local_loc_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_doNotTouch_grp_all/boy_rig:r_arm_pvInfo_loc_grp/boy_rig:r_arm_pvTarget_local_loc_localSpace/boy_rig:r_arm_pvTarget_local_loc_orient/boy_rig:r_arm_pvTarget_local_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_doNotTouch_grp_all/boy_rig:r_arm_pvInfo_loc_grp/boy_rig:r_arm_pvTarget_world_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_doNotTouch_grp_all/boy_rig:r_forearm_twistInfo_loc_grp
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_doNotTouch_grp_all/boy_rig:r_forearm_twistInfo_loc_grp/boy_rig:r_forearm_twistInfo_loc_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_doNotTouch_grp_all/boy_rig:r_forearm_twistInfo_loc_grp/boy_rig:r_forearm_twistInfo_loc_orient/boy_rig:r_forearm_twistInfo_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_doNotTouch_grp_all/boy_rig:r_forearm_twistInfo_loc_grp/boy_rig:r_forearm_twistTarget_loc_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_doNotTouch_grp_all/boy_rig:r_forearm_twistInfo_loc_grp/boy_rig:r_forearm_twistTarget_loc_orient/boy_rig:r_forearm_twistTarget_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_joints_grp
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_joints_grp/boy_rig:r_arm_pvOffset_1_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_joints_grp/boy_rig:r_arm_pvOffset_1_joint/boy_rig:r_arm_pvOffset_2_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_joints_grp/boy_rig:r_clavicle_fk_1_joint_localSpace
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_joints_grp/boy_rig:r_clavicle_fk_1_joint_localSpace/boy_rig:r_clavicle_fk_1_joint_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_joints_grp/boy_rig:r_clavicle_fk_1_joint_localSpace/boy_rig:r_clavicle_fk_1_joint_orient/boy_rig:r_clavicle_fk_1_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_joints_grp/boy_rig:r_clavicle_fk_1_joint_localSpace/boy_rig:r_clavicle_fk_1_joint_orient/boy_rig:r_clavicle_fk_1_joint/boy_rig:r_clavicle_fk_2_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_joints_grp/boy_rig:r_clavicle_fk_1_joint_localSpace/boy_rig:r_clavicle_fk_1_joint_orient/boy_rig:r_clavicle_fk_1_joint/boy_rig:r_clavicle_fk_2_joint/boy_rig:r_clavicle_ik_anim_grpConst
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_joints_grp/boy_rig:r_clavicle_ik_1_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_joints_grp/boy_rig:r_clavicle_ik_1_joint/boy_rig:r_clavicle_ik_2_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_joints_grp/boy_rig:r_clavicle_ik_1_joint/boy_rig:r_clavicle_ik_2_joint/boy_rig:r_shoulder_fk_joint_constGrp
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_joints_grp/boy_rig:r_shoulder_bind_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_joints_grp/boy_rig:r_shoulder_bind_joint/boy_rig:r_elbow_bind_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_joints_grp/boy_rig:r_shoulder_bind_joint/boy_rig:r_elbow_bind_joint/boy_rig:r_forearm_bind_1_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_joints_grp/boy_rig:r_shoulder_bind_joint/boy_rig:r_elbow_bind_joint/boy_rig:r_forearm_bind_1_joint/boy_rig:r_forearm_bind_2_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_joints_grp/boy_rig:r_shoulder_bind_joint/boy_rig:r_elbow_bind_joint/boy_rig:r_wrist_bind_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_joints_grp/boy_rig:r_shoulder_fk_joint_localSpace
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_joints_grp/boy_rig:r_shoulder_fk_joint_localSpace/boy_rig:r_shoulder_fk_joint_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_joints_grp/boy_rig:r_shoulder_fk_joint_localSpace/boy_rig:r_shoulder_fk_joint_orient/boy_rig:r_shoulder_fk_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_joints_grp/boy_rig:r_shoulder_fk_joint_localSpace/boy_rig:r_shoulder_fk_joint_orient/boy_rig:r_shoulder_fk_joint/boy_rig:r_elbow_fk_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_joints_grp/boy_rig:r_shoulder_fk_joint_localSpace/boy_rig:r_shoulder_fk_joint_orient/boy_rig:r_shoulder_fk_joint/boy_rig:r_elbow_fk_joint/boy_rig:r_wrist_fk_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_joints_grp/boy_rig:r_shoulder_fk_joint_localSpace/boy_rig:r_shoulder_fk_joint_orient/boy_rig:r_shoulder_fk_joint/boy_rig:r_elbow_fk_joint/boy_rig:r_wrist_fk_joint/boy_rig:r_wrist_fk_PosTracker_locwrist_fk_rotTracker_loc_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_joints_grp/boy_rig:r_shoulder_fk_joint_localSpace/boy_rig:r_shoulder_fk_joint_orient/boy_rig:r_shoulder_fk_joint/boy_rig:r_elbow_fk_joint/boy_rig:r_wrist_fk_joint/boy_rig:r_wrist_fk_PosTracker_locwrist_fk_rotTracker_loc_orient/boy_rig:r_wrist_fk_rotTracker_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_joints_grp/boy_rig:r_shoulder_ik_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_joints_grp/boy_rig:r_shoulder_ik_joint/boy_rig:r_elbow_ik_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_arm_grp_all/boy_rig:r_arm_joints_grp/boy_rig:r_shoulder_ik_joint/boy_rig:r_elbow_ik_joint/boy_rig:r_wrist_ik_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_hand_grp_all
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_hand_grp_all/boy_rig:r_hand_anim_grp_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_hand_grp_all/boy_rig:r_hand_anim_grp_orient/boy_rig:r_hand_anim_grp
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_hand_grp_all/boy_rig:r_hand_anim_grp_orient/boy_rig:r_hand_anim_grp/boy_rig:r_index_fk_base_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_hand_grp_all/boy_rig:r_hand_anim_grp_orient/boy_rig:r_hand_anim_grp/boy_rig:r_index_fk_base_joint/boy_rig:r_index_sdk_1_grpOffset_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_hand_grp_all/boy_rig:r_hand_anim_grp_orient/boy_rig:r_hand_anim_grp/boy_rig:r_index_fk_base_joint/boy_rig:r_index_sdk_1_grpOffset_orient/boy_rig:r_index_sdk_1_grpOffset
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_hand_grp_all/boy_rig:r_hand_anim_grp_orient/boy_rig:r_hand_anim_grp/boy_rig:r_index_fk_base_joint/boy_rig:r_index_sdk_1_grpOffset_orient/boy_rig:r_index_sdk_1_grpOffset/boy_rig:r_index_fk_1_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_hand_grp_all/boy_rig:r_hand_anim_grp_orient/boy_rig:r_hand_anim_grp/boy_rig:r_index_fk_base_joint/boy_rig:r_index_sdk_1_grpOffset_orient/boy_rig:r_index_sdk_1_grpOffset/boy_rig:r_index_fk_1_joint/boy_rig:r_index_sdk_2_grpOffset_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_hand_grp_all/boy_rig:r_hand_anim_grp_orient/boy_rig:r_hand_anim_grp/boy_rig:r_index_fk_base_joint/boy_rig:r_index_sdk_1_grpOffset_orient/boy_rig:r_index_sdk_1_grpOffset/boy_rig:r_index_fk_1_joint/boy_rig:r_index_sdk_2_grpOffset_orient/boy_rig:r_index_sdk_2_grpOffset
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_hand_grp_all/boy_rig:r_hand_anim_grp_orient/boy_rig:r_hand_anim_grp/boy_rig:r_thumb_fk_base_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_hand_grp_all/boy_rig:r_hand_anim_grp_orient/boy_rig:r_hand_anim_grp/boy_rig:r_thumb_fk_base_joint/boy_rig:r_thumb_sdk_1_grpOffset_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_hand_grp_all/boy_rig:r_hand_anim_grp_orient/boy_rig:r_hand_anim_grp/boy_rig:r_thumb_fk_base_joint/boy_rig:r_thumb_sdk_1_grpOffset_orient/boy_rig:r_thumb_sdk_1_grpOffset
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_hand_grp_all/boy_rig:r_hand_joints_grp
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_hand_grp_all/boy_rig:r_hand_joints_grp/boy_rig:r_hand_base_bind_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_hand_grp_all/boy_rig:r_hand_joints_grp/boy_rig:r_hand_base_bind_joint/boy_rig:r_index_bind_base_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_hand_grp_all/boy_rig:r_hand_joints_grp/boy_rig:r_hand_base_bind_joint/boy_rig:r_index_bind_base_joint/boy_rig:r_index_bind_1_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_hand_grp_all/boy_rig:r_hand_joints_grp/boy_rig:r_hand_base_bind_joint/boy_rig:r_index_bind_base_joint/boy_rig:r_index_bind_1_joint/boy_rig:r_index_bind_2_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_hand_grp_all/boy_rig:r_hand_joints_grp/boy_rig:r_hand_base_bind_joint/boy_rig:r_thumb_bind_base_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_hand_grp_all/boy_rig:r_hand_joints_grp/boy_rig:r_hand_base_bind_joint/boy_rig:r_thumb_bind_base_joint/boy_rig:r_thumb_bind_1_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_anim_grp
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_anim_grp/boy_rig:r_foot_anim_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_anim_grp/boy_rig:r_foot_anim_orient/boy_rig:r_foot_ik_anim
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_anim_grp/boy_rig:r_foot_anim_orient/boy_rig:r_foot_ik_anim/boy_rig:r_heel_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_anim_grp/boy_rig:r_foot_anim_orient/boy_rig:r_foot_ik_anim/boy_rig:r_heel_loc/boy_rig:r_foot_side_1_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_anim_grp/boy_rig:r_foot_anim_orient/boy_rig:r_foot_ik_anim/boy_rig:r_heel_loc/boy_rig:r_foot_side_1_loc/boy_rig:r_foot_side_2_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_anim_grp/boy_rig:r_foot_anim_orient/boy_rig:r_foot_ik_anim/boy_rig:r_heel_loc/boy_rig:r_foot_side_1_loc/boy_rig:r_foot_side_2_loc/boy_rig:r_foot_anim_1_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_anim_grp/boy_rig:r_foot_anim_orient/boy_rig:r_foot_ik_anim/boy_rig:r_heel_loc/boy_rig:r_foot_side_1_loc/boy_rig:r_foot_side_2_loc/boy_rig:r_foot_anim_1_joint/boy_rig:r_foot_anim_2_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_anim_grp/boy_rig:r_foot_anim_orient/boy_rig:r_foot_ik_anim/boy_rig:r_heel_loc/boy_rig:r_foot_side_1_loc/boy_rig:r_foot_side_2_loc/boy_rig:r_foot_anim_1_joint/boy_rig:r_foot_anim_2_joint/boy_rig:r_foot_anim_3_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_anim_grp/boy_rig:r_foot_anim_orient/boy_rig:r_foot_ik_anim/boy_rig:r_heel_loc/boy_rig:r_foot_side_1_loc/boy_rig:r_foot_side_2_loc/boy_rig:r_foot_anim_1_joint/boy_rig:r_foot_anim_2_joint/boy_rig:r_foot_anim_3_joint/boy_rig:r_foot_anim_4_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_anim_grp/boy_rig:r_foot_anim_orient/boy_rig:r_foot_ik_anim/boy_rig:r_heel_loc/boy_rig:r_foot_side_1_loc/boy_rig:r_foot_side_2_loc/boy_rig:r_foot_anim_1_joint/boy_rig:r_foot_anim_2_joint/boy_rig:r_foot_anim_3_joint/boy_rig:r_foot_anim_toeWiggle_1_joint_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_anim_grp/boy_rig:r_foot_anim_orient/boy_rig:r_foot_ik_anim/boy_rig:r_heel_loc/boy_rig:r_foot_side_1_loc/boy_rig:r_foot_side_2_loc/boy_rig:r_foot_anim_1_joint/boy_rig:r_foot_anim_2_joint/boy_rig:r_foot_anim_3_joint/boy_rig:r_foot_anim_toeWiggle_1_joint_orient/boy_rig:r_foot_anim_toeWiggle_1_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_anim_grp/boy_rig:r_foot_anim_orient/boy_rig:r_foot_ik_anim/boy_rig:r_heel_loc/boy_rig:r_foot_side_1_loc/boy_rig:r_foot_side_2_loc/boy_rig:r_foot_anim_1_joint/boy_rig:r_foot_anim_2_joint/boy_rig:r_foot_anim_3_joint/boy_rig:r_foot_anim_toeWiggle_1_joint_orient/boy_rig:r_foot_anim_toeWiggle_1_joint/boy_rig:r_foot_anim_toeWiggle_2_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_anim_grp/boy_rig:r_leg_pv_anim_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_anim_grp/boy_rig:r_leg_pv_anim_orient/boy_rig:r_leg_pv_anim
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_anim_grp/boy_rig:r_leg_switch_anim
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_annotation_grp
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_annotation_grp/boy_rig:r_leg_ik_annotate
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_doNotTouch_grp_all
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_doNotTouch_grp_all/boy_rig:r_calf_twistInfo_loc_grp
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_doNotTouch_grp_all/boy_rig:r_calf_twistInfo_loc_grp/boy_rig:r_calf_twistInfo_loc_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_doNotTouch_grp_all/boy_rig:r_calf_twistInfo_loc_grp/boy_rig:r_calf_twistInfo_loc_orient/boy_rig:r_calf_twistInfo_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_doNotTouch_grp_all/boy_rig:r_calf_twistInfo_loc_grp/boy_rig:r_calf_twistTarget_loc_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_doNotTouch_grp_all/boy_rig:r_calf_twistInfo_loc_grp/boy_rig:r_calf_twistTarget_loc_orient/boy_rig:r_calf_twistTarget_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_doNotTouch_grp_all/boy_rig:r_calf_twistInfo_loc_grp/boy_rig:r_foot_rotTracker_loc_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_doNotTouch_grp_all/boy_rig:r_calf_twistInfo_loc_grp/boy_rig:r_foot_rotTracker_loc_orient/boy_rig:r_foot_rotTracker_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_doNotTouch_grp_all/boy_rig:r_leg_dist_loc_grp
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_doNotTouch_grp_all/boy_rig:r_leg_dist_loc_grp/boy_rig:r_leg_dist_1_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_doNotTouch_grp_all/boy_rig:r_leg_dist_loc_grp/boy_rig:r_leg_dist_2_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_doNotTouch_grp_all/boy_rig:r_leg_dist_loc_grp/boy_rig:r_leg_dist_3_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_doNotTouch_grp_all/boy_rig:r_leg_fkTracker_loc_grp
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_doNotTouch_grp_all/boy_rig:r_leg_fkTracker_loc_grp/boy_rig:r_ankle_fk_PosTracker_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_doNotTouch_grp_all/boy_rig:r_leg_fkTracker_loc_grp/boy_rig:r_thigh_fk_posTracker_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_doNotTouch_grp_all/boy_rig:r_leg_fkTracker_loc_grp/boy_rig:r_thigh_fk_rotTracker_loc_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_doNotTouch_grp_all/boy_rig:r_leg_fkTracker_loc_grp/boy_rig:r_thigh_fk_rotTracker_loc_orient/boy_rig:r_thigh_fk_rotTracker_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_doNotTouch_grp_all/boy_rig:r_leg_ikHandle_grp
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_doNotTouch_grp_all/boy_rig:r_leg_ikHandle_grp/boy_rig:r_ball_sc_ikHandle
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_doNotTouch_grp_all/boy_rig:r_leg_ikHandle_grp/boy_rig:r_leg_pvOffset_ikHandle
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_doNotTouch_grp_all/boy_rig:r_leg_ikHandle_grp/boy_rig:r_leg_rp_ikHandle
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_doNotTouch_grp_all/boy_rig:r_leg_ikHandle_grp/boy_rig:r_toe_sc_ikHandle
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_doNotTouch_grp_all/boy_rig:r_leg_ikTracker_loc_grp
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_doNotTouch_grp_all/boy_rig:r_leg_ikTracker_loc_grp/boy_rig:r_thigh_ik_posTracker_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_doNotTouch_grp_all/boy_rig:r_leg_pvInfo_loc_grp
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_doNotTouch_grp_all/boy_rig:r_leg_pvInfo_loc_grp/boy_rig:r_leg_pvTarget_local_loc_localSpace
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_doNotTouch_grp_all/boy_rig:r_leg_pvInfo_loc_grp/boy_rig:r_leg_pvTarget_local_loc_localSpace/boy_rig:r_leg_pvTarget_local_loc_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_doNotTouch_grp_all/boy_rig:r_leg_pvInfo_loc_grp/boy_rig:r_leg_pvTarget_local_loc_localSpace/boy_rig:r_leg_pvTarget_local_loc_orient/boy_rig:r_leg_pvTarget_local_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_doNotTouch_grp_all/boy_rig:r_leg_pvInfo_loc_grp/boy_rig:r_leg_pvTarget_world_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_joints_grp
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_joints_grp/boy_rig:r_leg_pvOffset_1_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_joints_grp/boy_rig:r_leg_pvOffset_1_joint/boy_rig:r_leg_pvOffset_2_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_joints_grp/boy_rig:r_thigh_bind_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_joints_grp/boy_rig:r_thigh_bind_joint/boy_rig:r_knee_bind_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_joints_grp/boy_rig:r_thigh_bind_joint/boy_rig:r_knee_bind_joint/boy_rig:r_ankle_bind_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_joints_grp/boy_rig:r_thigh_bind_joint/boy_rig:r_knee_bind_joint/boy_rig:r_ankle_bind_joint/boy_rig:r_ball_bind_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_joints_grp/boy_rig:r_thigh_bind_joint/boy_rig:r_knee_bind_joint/boy_rig:r_ankle_bind_joint/boy_rig:r_ball_bind_joint/boy_rig:r_toe_bind_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_joints_grp/boy_rig:r_thigh_bind_joint/boy_rig:r_knee_bind_joint/boy_rig:r_ankle_bind_joint/boy_rig:r_foot_rotTracker_loc_grpConst
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_joints_grp/boy_rig:r_thigh_bind_joint/boy_rig:r_knee_bind_joint/boy_rig:r_calf_bind_1_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_joints_grp/boy_rig:r_thigh_bind_joint/boy_rig:r_knee_bind_joint/boy_rig:r_calf_bind_1_joint/boy_rig:r_calf_bind_2_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_joints_grp/boy_rig:r_thigh_fk_joint_localSpace
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_joints_grp/boy_rig:r_thigh_fk_joint_localSpace/boy_rig:r_thigh_fk_joint_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_joints_grp/boy_rig:r_thigh_fk_joint_localSpace/boy_rig:r_thigh_fk_joint_orient/boy_rig:r_thigh_fk_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_joints_grp/boy_rig:r_thigh_fk_joint_localSpace/boy_rig:r_thigh_fk_joint_orient/boy_rig:r_thigh_fk_joint/boy_rig:r_knee_fk_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_joints_grp/boy_rig:r_thigh_fk_joint_localSpace/boy_rig:r_thigh_fk_joint_orient/boy_rig:r_thigh_fk_joint/boy_rig:r_knee_fk_joint/boy_rig:r_ankle_fk_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_joints_grp/boy_rig:r_thigh_fk_joint_localSpace/boy_rig:r_thigh_fk_joint_orient/boy_rig:r_thigh_fk_joint/boy_rig:r_knee_fk_joint/boy_rig:r_ankle_fk_joint/boy_rig:r_ankle_fk_rotTracker_loc_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_joints_grp/boy_rig:r_thigh_fk_joint_localSpace/boy_rig:r_thigh_fk_joint_orient/boy_rig:r_thigh_fk_joint/boy_rig:r_knee_fk_joint/boy_rig:r_ankle_fk_joint/boy_rig:r_ankle_fk_rotTracker_loc_orient/boy_rig:r_ankle_fk_rotTracker_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_joints_grp/boy_rig:r_thigh_fk_joint_localSpace/boy_rig:r_thigh_fk_joint_orient/boy_rig:r_thigh_fk_joint/boy_rig:r_knee_fk_joint/boy_rig:r_ankle_fk_joint/boy_rig:r_ball_fk_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_joints_grp/boy_rig:r_thigh_fk_joint_localSpace/boy_rig:r_thigh_fk_joint_orient/boy_rig:r_thigh_fk_joint/boy_rig:r_knee_fk_joint/boy_rig:r_ankle_fk_joint/boy_rig:r_ball_fk_joint/boy_rig:r_toe_fk_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_joints_grp/boy_rig:r_thigh_ik_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_joints_grp/boy_rig:r_thigh_ik_joint/boy_rig:r_knee_ik_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_joints_grp/boy_rig:r_thigh_ik_joint/boy_rig:r_knee_ik_joint/boy_rig:r_ankle_ik_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_joints_grp/boy_rig:r_thigh_ik_joint/boy_rig:r_knee_ik_joint/boy_rig:r_ankle_ik_joint/boy_rig:r_ball_ik_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:r_leg_grp_all/boy_rig:r_leg_joints_grp/boy_rig:r_thigh_ik_joint/boy_rig:r_knee_ik_joint/boy_rig:r_ankle_ik_joint/boy_rig:r_ball_ik_joint/boy_rig:r_toe_ik_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_anim_grp
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_anim_grp/boy_rig:body_anim
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_anim_grp/boy_rig:body_anim/boy_rig:hip_anim_grpConst
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_anim_grp/boy_rig:body_anim/boy_rig:spine_fk_1_joint_grpConst
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_anim_grp/boy_rig:hip_anim_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_anim_grp/boy_rig:hip_anim_orient/boy_rig:hip_anim
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_anim_grp/boy_rig:hip_anim_orient/boy_rig:hip_anim/boy_rig:hip_joint_grpConst
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_anim_grp/boy_rig:shoulder_anim_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_anim_grp/boy_rig:shoulder_anim_orient/boy_rig:shoulder_anim
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_anim_grp/boy_rig:spine_midBend_anim_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_anim_grp/boy_rig:spine_midBend_anim_orient/boy_rig:spine_midBend_anim
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_doNotTouch_grp
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_doNotTouch_grp/boy_rig:spine_bind_curve
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_doNotTouch_grp/boy_rig:spine_ikSpline_handle
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_doNotTouch_grp/boy_rig:spine_motionPath_curve
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_doNotTouch_grp/boy_rig:spine_rp_1_ikHandle
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_doNotTouch_grp/boy_rig:spine_rp_2_ikHandle
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_doNotTouch_grp/boy_rig:spine_rp_3_ikHandle
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_doNotTouch_grp/boy_rig:spine_rp_4_ikHandle
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_doNotTouch_grp/boy_rig:spine_rp_5_ikHandle
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_doNotTouch_grp/boy_rig:spine_rp_6_ikHandle
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_joints_grp
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_joints_grp/boy_rig:hip_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_joints_grp/boy_rig:hip_joint/boy_rig:l_acetabular_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_joints_grp/boy_rig:hip_joint/boy_rig:l_acetabular_joint/boy_rig:l_thigh_fk_joint_grpConst
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_joints_grp/boy_rig:hip_joint/boy_rig:r_acetabular_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_joints_grp/boy_rig:hip_joint/boy_rig:r_acetabular_joint/boy_rig:r_thigh_fk_joint_grpConst
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_joints_grp/boy_rig:shoulder_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_joints_grp/boy_rig:shoulder_joint/boy_rig:l_sternoclavicular_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_joints_grp/boy_rig:shoulder_joint/boy_rig:l_sternoclavicular_joint/boy_rig:l_clavicle_fk_1_joint_constGrp
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_joints_grp/boy_rig:shoulder_joint/boy_rig:l_sternoclavicular_joint/boy_rig:l_hand_ik_anim_grpConst
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_joints_grp/boy_rig:shoulder_joint/boy_rig:neck_base_anim_grpConst
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_joints_grp/boy_rig:shoulder_joint/boy_rig:neck_joints_grpConst
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_joints_grp/boy_rig:shoulder_joint/boy_rig:r_sternoclavicular_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_joints_grp/boy_rig:shoulder_joint/boy_rig:r_sternoclavicular_joint/boy_rig:r_clavicle_fk_1_joint_constGrp
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_joints_grp/boy_rig:shoulder_joint/boy_rig:r_sternoclavicular_joint/boy_rig:r_hand_ik_anim_grpConst
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_joints_grp/boy_rig:spine_base_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_joints_grp/boy_rig:spine_bind_1_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_joints_grp/boy_rig:spine_bind_1_joint/boy_rig:spine_bind_2_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_joints_grp/boy_rig:spine_bind_1_joint/boy_rig:spine_bind_2_joint/boy_rig:spine_bind_3_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_joints_grp/boy_rig:spine_bind_1_joint/boy_rig:spine_bind_2_joint/boy_rig:spine_bind_3_joint/boy_rig:spine_bind_4_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_joints_grp/boy_rig:spine_bind_1_joint/boy_rig:spine_bind_2_joint/boy_rig:spine_bind_3_joint/boy_rig:spine_bind_4_joint/boy_rig:spine_bind_5_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_joints_grp/boy_rig:spine_bind_1_joint/boy_rig:spine_bind_2_joint/boy_rig:spine_bind_3_joint/boy_rig:spine_bind_4_joint/boy_rig:spine_bind_5_joint/boy_rig:spine_bind_6_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_joints_grp/boy_rig:spine_bind_1_joint/boy_rig:spine_bind_2_joint/boy_rig:spine_bind_3_joint/boy_rig:spine_bind_4_joint/boy_rig:spine_bind_5_joint/boy_rig:spine_bind_6_joint/boy_rig:spine_bind_7_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_joints_grp/boy_rig:spine_bind_1_joint/boy_rig:spine_bind_2_joint/boy_rig:spine_bind_3_joint/boy_rig:spine_bind_4_joint/boy_rig:spine_bind_5_joint/boy_rig:spine_bind_6_joint/boy_rig:spine_bind_7_joint/boy_rig:shoulder_joint_grpConst
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_joints_grp/boy_rig:spine_fk_1_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_joints_grp/boy_rig:spine_fk_1_joint/boy_rig:spine_fk_2_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_joints_grp/boy_rig:spine_fk_1_joint/boy_rig:spine_fk_2_joint/boy_rig:spine_fk_3_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_joints_grp/boy_rig:spine_fk_1_joint/boy_rig:spine_fk_2_joint/boy_rig:spine_fk_3_joint/boy_rig:shoulder_anim_grpConst
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_joints_grp/boy_rig:spine_ik_1_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_joints_grp/boy_rig:spine_ik_1_joint/boy_rig:spine_ik_2_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_joints_grp/boy_rig:spine_ik_1_joint/boy_rig:spine_ik_2_joint/boy_rig:spine_ik_3_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_joints_grp/boy_rig:spine_ik_1_joint/boy_rig:spine_ik_2_joint/boy_rig:spine_ik_3_joint/boy_rig:spine_ik_4_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_joints_grp/boy_rig:spine_ik_1_joint/boy_rig:spine_ik_2_joint/boy_rig:spine_ik_3_joint/boy_rig:spine_ik_4_joint/boy_rig:spine_ik_5_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_joints_grp/boy_rig:spine_ik_1_joint/boy_rig:spine_ik_2_joint/boy_rig:spine_ik_3_joint/boy_rig:spine_ik_4_joint/boy_rig:spine_ik_5_joint/boy_rig:spine_ik_6_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_joints_grp/boy_rig:spine_ik_1_joint/boy_rig:spine_ik_2_joint/boy_rig:spine_ik_3_joint/boy_rig:spine_ik_4_joint/boy_rig:spine_ik_5_joint/boy_rig:spine_ik_6_joint/boy_rig:spine_ik_7_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_joints_grp/boy_rig:spine_ik_1_joint/boy_rig:spine_ik_2_joint/boy_rig:spine_ik_3_joint/boy_rig:spine_ik_4_joint/boy_rig:spine_ik_5_joint/boy_rig:spine_ik_6_joint/boy_rig:spine_ik_7_joint/boy_rig:spine_pv_7_loc_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_joints_grp/boy_rig:spine_ik_1_joint/boy_rig:spine_ik_2_joint/boy_rig:spine_ik_3_joint/boy_rig:spine_ik_4_joint/boy_rig:spine_ik_5_joint/boy_rig:spine_ik_6_joint/boy_rig:spine_ik_7_joint/boy_rig:spine_pv_7_loc_orient/boy_rig:spine_pv_7_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_joints_grp/boy_rig:spine_ik_1_joint/boy_rig:spine_ik_2_joint/boy_rig:spine_ik_3_joint/boy_rig:spine_ik_4_joint/boy_rig:spine_ik_5_joint/boy_rig:spine_ik_6_joint/boy_rig:spine_pv_6_loc_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_joints_grp/boy_rig:spine_ik_1_joint/boy_rig:spine_ik_2_joint/boy_rig:spine_ik_3_joint/boy_rig:spine_ik_4_joint/boy_rig:spine_ik_5_joint/boy_rig:spine_ik_6_joint/boy_rig:spine_pv_6_loc_orient/boy_rig:spine_pv_6_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_joints_grp/boy_rig:spine_ik_1_joint/boy_rig:spine_ik_2_joint/boy_rig:spine_ik_3_joint/boy_rig:spine_ik_4_joint/boy_rig:spine_ik_5_joint/boy_rig:spine_pv_5_loc_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_joints_grp/boy_rig:spine_ik_1_joint/boy_rig:spine_ik_2_joint/boy_rig:spine_ik_3_joint/boy_rig:spine_ik_4_joint/boy_rig:spine_ik_5_joint/boy_rig:spine_pv_5_loc_orient/boy_rig:spine_pv_5_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_joints_grp/boy_rig:spine_ik_1_joint/boy_rig:spine_ik_2_joint/boy_rig:spine_ik_3_joint/boy_rig:spine_ik_4_joint/boy_rig:spine_pv_4_loc_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_joints_grp/boy_rig:spine_ik_1_joint/boy_rig:spine_ik_2_joint/boy_rig:spine_ik_3_joint/boy_rig:spine_ik_4_joint/boy_rig:spine_pv_4_loc_orient/boy_rig:spine_pv_4_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_joints_grp/boy_rig:spine_ik_1_joint/boy_rig:spine_ik_2_joint/boy_rig:spine_ik_3_joint/boy_rig:spine_pv_3_loc_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_joints_grp/boy_rig:spine_ik_1_joint/boy_rig:spine_ik_2_joint/boy_rig:spine_ik_3_joint/boy_rig:spine_pv_3_loc_orient/boy_rig:spine_pv_3_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_joints_grp/boy_rig:spine_ik_1_joint/boy_rig:spine_ik_2_joint/boy_rig:spine_pv_2_loc_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_joints_grp/boy_rig:spine_ik_1_joint/boy_rig:spine_ik_2_joint/boy_rig:spine_pv_2_loc_orient/boy_rig:spine_pv_2_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_joints_grp/boy_rig:spine_ik_1_joint/boy_rig:spine_pv_1_loc_orient
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_joints_grp/boy_rig:spine_ik_1_joint/boy_rig:spine_pv_1_loc_orient/boy_rig:spine_pv_1_loc
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_joints_grp/boy_rig:spine_midBend_joint
+        weight: 1
+      - path: boy_rig:boy_grp_all/boy_rig:rig_grp_all/boy_rig:rig_root_anim/boy_rig:spine_grp_all/boy_rig:spine_joints_grp/boy_rig:spine_tip_joint
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  userData: 

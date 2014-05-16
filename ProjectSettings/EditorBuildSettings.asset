@@ -7,7 +7,19 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/titlescreen.unity
-  - enabled: 1
+  - enabled: 0
     path: Assets/Outdoor_env.unity
-  - enabled: 1
+  - enabled: 0
     path: Assets/beautifulcorner.unity
+  - enabled: 0
+    path: Assets/Outdoor_env 1.unity
+  - enabled: 0
+    path: Assets/Base_3.unity
+  - enabled: 1
+    path: Assets/Base_4.unity
+  - enabled: 0
+    path: Assets/clinit_tent.unity
+  - enabled: 0
+    path: Assets/outdoor_1_revised.unity
+  - enabled: 0
+    path: Assets/outdoor-close.unity
