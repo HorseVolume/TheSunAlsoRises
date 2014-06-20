@@ -43,6 +43,30 @@ Material:
         first:
           name: _node440
         second: .142857149
+      data:
+        first:
+          name: _node552
+        second: 0
+      data:
+        first:
+          name: _EmissiveLerp
+        second: .37500003
+      data:
+        first:
+          name: _NaturalLightBlend
+        second: .232142851
+      data:
+        first:
+          name: _node612
+        second: 0
+      data:
+        first:
+          name: _LerpBlend
+        second: .553571403
+      data:
+        first:
+          name: _node668
+        second: .535714328
     m_Colors:
       data:
         first:
@@ -56,3 +80,23 @@ Material:
         first:
           name: _node438
         second: {r: 1, g: .475862086, b: 0, a: 1}
+      data:
+        first:
+          name: _node459
+        second: {r: 1, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _node551
+        second: {r: 1, g: .600000024, b: 0, a: 1}
+      data:
+        first:
+          name: _LightMixin
+        second: {r: 1, g: .600000024, b: 0, a: 1}
+      data:
+        first:
+          name: _node558
+        second: {r: .5, g: .5, b: .5, a: 1}
+      data:
+        first:
+          name: _EmissiveDropoutColor
+        second: {r: .389705896, g: .0859645233, b: .0859645233, a: 1}

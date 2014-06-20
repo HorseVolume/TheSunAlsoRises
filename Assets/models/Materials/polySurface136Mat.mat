@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: polySurface136Mat
-  m_Shader: {fileID: 4800000, guid: 5be700e405c9b98409518366016c983e, type: 3}
+  m_Shader: {fileID: 4800000, guid: 363bfea2e78af7e43b52532d0e01bc81, type: 3}
   m_ShaderKeywords: []
   m_CustomRenderQueue: -1
   m_SavedProperties:
@@ -34,9 +34,33 @@ Material:
           m_Texture: {fileID: 2800000, guid: e63fff14ff904b9489288a7a061aa18b, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
-    m_Floats: {}
+    m_Floats:
+      data:
+        first:
+          name: _EmissiveLerp
+        second: .482142866
+      data:
+        first:
+          name: _NaturalLightBlend
+        second: 1
+      data:
+        first:
+          name: _LerpBlend
+        second: .142857149
+      data:
+        first:
+          name: _node668
+        second: .553571403
     m_Colors:
       data:
         first:
           name: _Color
         second: {r: .800000012, g: .800000012, b: .800000012, a: 1}
+      data:
+        first:
+          name: _LightMixin
+        second: {r: 1, g: .600000024, b: 0, a: 1}
+      data:
+        first:
+          name: _EmissiveDropoutColor
+        second: {r: .183823526, g: .040493384, b: .0162197277, a: 1}

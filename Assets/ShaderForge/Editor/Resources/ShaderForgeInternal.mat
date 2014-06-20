@@ -7,23 +7,42 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: ShaderForgeInternal
-  m_Shader: {fileID: 4800000, guid: 3d82e8c55d7aa6446826013435685d5e, type: 3}
+  m_Shader: {fileID: 4800000, guid: 363bfea2e78af7e43b52532d0e01bc81, type: 3}
   m_ShaderKeywords: []
   m_CustomRenderQueue: -1
   m_SavedProperties:
     serializedVersion: 2
-    m_TexEnvs: {}
+    m_TexEnvs:
+      data:
+        first:
+          name: _node2
+        second:
+          m_Texture: {fileID: 2800000, guid: a7608c3b0de9a96438f6e082e0af95e6, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
     m_Floats:
       data:
         first:
-          name: _Cutoff
-        second: .5
+          name: _EmissiveLerp
+        second: .541353405
       data:
         first:
-          name: _transparency
-        second: 1
+          name: _NaturalLightBlend
+        second: .652741075
+      data:
+        first:
+          name: _LerpBlend
+        second: .376091301
+      data:
+        first:
+          name: _node668
+        second: .751880169
     m_Colors:
       data:
         first:
-          name: _basecolor
-        second: {r: .948529422, g: .574924827, b: .313851714, a: 1}
+          name: _LightMixin
+        second: {r: 1, g: .600000024, b: 0, a: 1}
+      data:
+        first:
+          name: _EmissiveDropoutColor
+        second: {r: .242647097, g: .162322506, b: .0606617592, a: 1}
